@@ -220,6 +220,8 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
 .btn-ow { background: transparent; color: white; border: 1px solid rgba(220, 232, 255, .4); }
 .btn-ow:hover { background: rgba(255, 255, 255, .1); transform: translateY(-2px); }
 .hero-img img { width: 100%; display: block;
+  /* 図の文字・写真がフェードで欠けないよう白余白を外側に追加（フェード帯≈4-5%を余白内に収める） */
+  background: #fff; padding: 20px;
   /* 白背景を navy へシームレスに: 外周をフェザーして白→透明へ溶かす */
   -webkit-mask-image: linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
@@ -359,6 +361,8 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
   section { padding: 3.25rem 0; }
   .container { padding: 0 1.2rem; }
   .hero-top { padding: 3rem 1.2rem 2rem; }
+  /* JPタイトル1行目「知能ロボティクス・」(9文字) が <br> 前に折返さない上限サイズ */
+  h1.hero-title { font-size: clamp(1.8rem, 9vw, 2.5rem); }
   section .container::before,
   section .container::after { display: none; }
   .slabel::before { display: none; }
