@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T00:22:54.925Z",
+    "generated_at": "2026-07-11T02:21:44.886Z",
     "schema_version": "1.0"
   },
   "publications": [
@@ -195,6 +195,214 @@
       "period": {
         "from": "2025-04",
         "to": "2028-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "大規模言語モデルを活用した異種ロボットの逐次的なタスク割当と行動計画",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "磁性流体を用いた表面プラズモン共鳴に基づくヘテロコア光ファイバ磁場センサの研究開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "精密測定技術振興のための調査・研究事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "公益財団法人精密測定技術振興財団",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-01",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "ロボット基盤モデルによる個性適応型協調インタラクションのための拡張技術の構築",
+        "en": ""
+      },
+      "system": {
+        "ja": "公募型共同研究",
+        "en": ""
+      },
+      "funder": {
+        "ja": "国立情報学研究所",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-07",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "基盤モデルと現場学習を統合した言語理解に基づくマルチロボット協調タスク",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "フェムト秒レーザー加工分光セルを用いる生体分子検出システムの開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "窪寺 昌一",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "対話行動の品質評価におけるユーザの価値観推定手法の確立",
+        "en": ""
+      },
+      "system": {
+        "ja": "公益財団法人栢森情報科学振興財団 助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-01",
+        "to": "2025-12"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "知識転移技術による複数ロボットにおける新規環境学習の高速化",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2023,
+      "period": {
+        "from": "2023-04",
+        "to": "2024-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "低炭素社会に貢献する水素航空機のためのマルチモーダル光ファイバセンサの研究",
+        "en": "Fiber optic multimodal sensors for hydrogen-powered aircraft for a low-carbon society"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "西山 道子",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2022,
+      "period": {
+        "from": "2022-04",
+        "to": "2025-03"
       },
       "grant_number": ""
     }
