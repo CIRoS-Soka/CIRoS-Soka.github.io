@@ -33,20 +33,7 @@
   <meta name="twitter:title" content="CIRoS – 知能ロボティクス・センシング共創拠点">
   <meta name="twitter:description" content="創価大学理工学部の重点研究拠点。AIロボット・センシング・仮想環境を統合し、人間とAIロボットが共創する社会の実現を目指します。">
   <meta name="twitter:image" content="https://yhagiwara.github.io/CIRoS/Overview.jpg">
-
-  <script src="renderer.js"></script>
-<script>
-  GyosekiRenderer.init({
-    url: 'data.json',
-    targets: {
-      publications: '#publications"',
-      fundings: '#grants',
-      awards: '#awards'
-    },
-    lang: 'ja'  // 既存HPの言語切替JSから 'ja'/'en' を渡す
-  });
-</script>
-
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -83,6 +70,18 @@
   }
   </script>
   <!-- ==== /SEO ==== -->
+  <script src="renderer.js"></script>
+<script>
+  GyosekiRenderer.init({
+    url: 'data.json',
+    targets: {
+      publications: '#publications',
+      fundings: '#grants',
+      awards: '#awards'
+    },
+    lang: 'ja'
+  });
+</script>
 </head>
 <body>
 
