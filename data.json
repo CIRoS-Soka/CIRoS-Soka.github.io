@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "generated_at": "2026-07-11T00:12:08.428Z",
+    "schema_version": "1.0"
+  },
+  "publications": [
+    {
+      "title": {
+        "ja": "",
+        "en": "Multi-robot task planning for multi-object retrieval tasks with distributed on-site knowledge via large language models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kento Murata, Shoichi Hasegawa, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Artificial Life and Robotics"
+      },
+      "volume": 31,
+      "number": 2,
+      "year": 2026,
+      "doi": "10.1007/s10015-026-01123-8",
+      "url": "https://doi.org/10.1007/s10015-026-01123-8",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "暗渠内におけるモルタル搬送のためのLiDARを用いた自律移動ロボットの検証",
+        "en": "Experiment of Autonomous Mobile Robot for Mortar Transport in Culverts"
+      },
+      "authors": {
+        "ja": "田尻隼人, 鈴木彰真",
+        "en": "田尻隼人, 鈴木彰真"
+      },
+      "journal": {
+        "ja": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)",
+        "en": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)"
+      },
+      "volume": 15,
+      "number": 2,
+      "year": 2025,
+      "doi": "",
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502288646732352",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Spatial Concepts-based Prompts with Large Language Models for Robot Action Planning"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Access"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/access.2025.3647727",
+      "url": "https://doi.org/10.1109/access.2025.3647727",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "マルチモーダル大規模言語モデルによる複数ロボットの知識統合とタスク割当を用いた現場学習のコスト削減",
+        "en": "Reducing Cost of On-site Learning by Multi-robot Knowledge Integration and Task Allocation via Large Language Models"
+      },
+      "authors": {
+        "ja": "長谷川翔一, 村田健人, 石川朋親, 萩原良信, 谷口彰, エルハフィロトフィ, ガルシアグスタボ, 谷口忠大",
+        "en": "Shoichi Hasegawa, Kento Murata, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Gustavo Garcia, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "日本ロボット学会誌",
+        "en": "Journal of the Robotics Society of Japan"
+      },
+      "volume": 43,
+      "number": 7,
+      "year": 2025,
+      "doi": "10.7210/jrsj.43.703",
+      "url": "https://doi.org/10.7210/jrsj.43.703",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Co-Creative Learning via Metropolis-Hastings Interaction between Humans and AI."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ryota Okumura, Tadahiro Taniguchi, Akira Taniguchi, Yoshinobu Hagiwara"
+      },
+      "journal": {
+        "ja": "",
+        "en": "CoRR"
+      },
+      "volume": "abs/2506.15468",
+      "number": "",
+      "year": 2025,
+      "doi": "10.48550/arXiv.2506.15468",
+      "url": "https://doi.org/10.48550/arXiv.2506.15468",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-core fiber optic pH sensor coated with Au nanoparticles immobilized in pH-sensitive polymer multilayers"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Banerjee, D., Watanabe, K., Seki, A., Nishiyama, M."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Optics Express"
+      },
+      "volume": 33,
+      "number": 11,
+      "year": 2025,
+      "doi": "10.1364/OE.559509",
+      "url": "https://doi.org/10.1364/OE.559509",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Interaction Quality Evaluation in Guiding Human Daily Life Behavior"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Journal of Robotics and Mechatronics"
+      },
+      "volume": 37,
+      "number": 3,
+      "year": 2025,
+      "doi": "10.20965/jrm.2025.p0604",
+      "url": "https://doi.org/10.20965/jrm.2025.p0604",
+      "major": false
+    }
+  ],
+  "fundings": [
+    {
+      "title": {
+        "ja": "VLAモデルとセマンティックマップを活用した大規模言語モデルによる生活支援ロボットの汎用タスク実行",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2026,
+      "period": {
+        "from": "2026-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "確率的知識を用いた曖昧発話からのロボット行動生成基盤の創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2028-03"
+      },
+      "grant_number": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": {
+        "ja": "Best Poster Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Open Platform，@Home League",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup日本委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "1位",
+        "en": ""
+      },
+      "target": {
+        "ja": "@Space Challenge",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup日本委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "地上生活支援ロボット技術の宇宙転用に向けた自律宇宙ロボット研究の競技的架橋",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "岡田浩之, 池田勇輝, 萩原良信, Amy Eguchi, 稲邑哲也, 大井翔, 大橋健, 西野順二, 野間春生",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "優秀講演賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボットの曖昧発話理解に向けた物体・場所統合セマンティックマップによる位置推定",
+        "en": ""
+      },
+      "organization": {
+        "ja": "計測自動制御学会システムインテグレーション部門",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "鈴木幸四郎, 萩原良信",
+        "en": ""
+      }
+    }
+  ]
+}
