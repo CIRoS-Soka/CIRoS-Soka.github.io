@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T00:12:08.428Z",
+    "generated_at": "2026-07-11T00:22:54.925Z",
     "schema_version": "1.0"
   },
   "publications": [
@@ -221,6 +221,25 @@
     },
     {
       "title": {
+        "ja": "優勝",
+        "en": ""
+      },
+      "target": {
+        "ja": "@Space Challenge Open Category",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup @Space Challenge 実行委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
         "ja": "1位",
         "en": ""
       },
@@ -273,6 +292,44 @@
       "year": 2025,
       "recipients": {
         "ja": "鈴木幸四郎, 萩原良信",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "Advanced Robotics Best Paper Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Active Exploration based on Information Gain by Particle Filter for Efficient Spatial Concept Formation",
+        "en": ""
+      },
+      "organization": {
+        "ja": "The Robotics Society of Japan",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "Akira Taniguchi, Yoshiki Tabuchi, Tomochika Ishikawa, Lotfi El Hafi, Yoshinobu Hagiwara, and Tadahiro Taniguchi",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボカップ＠ホーム Kachaka Challenge の創出",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "水谷彰伸,Valentin Keith,寺田耕志,萩原良信,岡田浩之",
         "en": ""
       }
     }
