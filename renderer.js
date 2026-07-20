@@ -32,6 +32,49 @@ var GyosekiRenderer = (function () {
     '<span lc="ja">主要業績</span><span lc="en">Selected key publication</span>' +
     '</p>';
 
+  /**
+   * センター員（著者名に下線を引く対象）。
+   * GASのmembersシートと同じ5名。メンバーを増減したらここも更新すること
+   * （membersシートはname_enが未入力のため、英字表記はここで保持している）。
+   * family/given はローマ字、ja は日本語表記（姓名の間の空白有無は問わずマッチする）。
+   */
+  var CENTER_MEMBERS = [
+    { ja: '崔龍雲',     family: 'Choi',     given: 'Yongwoon' },
+    { ja: '伊与田健敏', family: 'Iyota',    given: 'Taketoshi' },
+    { ja: '萩原良信',   family: 'Hagiwara', given: 'Yoshinobu' },
+    { ja: '宍戸英彦',   family: 'Shishido', given: 'Hidehiko' },
+    { ja: '鈴木彰真',   family: 'Suzuki',   given: 'Akimasa' }
+  ];
+
+  function escapeRegExp(s) {
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // 1名分のマッチパターン。姓のみの一致は同姓の別人を巻き込むため採用しない
+  function memberPattern(m) {
+    var fam = escapeRegExp(m.family);
+    var giv = escapeRegExp(m.given);
+    var ini = escapeRegExp(m.given.charAt(0));
+    var jaChars = m.ja.split('').map(escapeRegExp).join('\\s*'); // 「鈴木 彰真」「鈴木彰真」の両方
+    return [
+      jaChars,
+      giv + '\\s+' + fam,          // Yoshinobu Hagiwara
+      fam + ',\\s*' + ini + '\\.', // Hagiwara, Y.
+      ini + '\\.\\s*' + fam        // Y. Hagiwara
+    ].join('|');
+  }
+
+  var MEMBER_RE = new RegExp('(' + CENTER_MEMBERS.map(memberPattern).join('|') + ')', 'g');
+
+  /**
+   * underlineMembers(escapedAuthors): エスケープ済みの著者文字列中のセンター員名を下線付きに包む。
+   * 必ず esc() の後に適用する（生文字列に適用するとタグが壊れる）。
+   */
+  function underlineMembers(escapedAuthors) {
+    if (!escapedAuthors) return escapedAuthors;
+    return escapedAuthors.replace(MEMBER_RE, '<span class="gyoseki-member">$1</span>');
+  }
+
   // --- XSS対策: &<>"' を実体参照へ（§7 XSSエスケープ必須） ---
   function esc(value) {
     if (value === null || value === undefined) return '';
@@ -119,7 +162,7 @@ var GyosekiRenderer = (function () {
       if (year) bits.push(esc(year));
       var rest = bits.join(', ');
       if (!authors && !rest) return '';
-      var inner = esc(authors) + (authors && rest ? ' — ' : '') + rest;
+      var inner = underlineMembers(esc(authors)) + (authors && rest ? ' — ' : '') + rest;
       return inner + linkHtml;
     }, lang);
 

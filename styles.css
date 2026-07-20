@@ -413,6 +413,8 @@ body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:
 .all-link a:hover { color: var(--accent2); }
 .gyoseki-empty { font-size: var(--fs-sm); color: var(--ink-soft); padding: 1.2rem .2rem; }
 .gyoseki-major-star { color: var(--accent2); }
+/* センター員の著者名。下線が文字に密着しないよう少し離す */
+.gyoseki-member { text-decoration: underline; text-underline-offset: .18em; text-decoration-thickness: 1px; }
 .gyoseki-legend { display: flex; align-items: center; gap: .4rem; margin-top: 1rem; font-size: var(--fs-2xs); font-family: var(--mono); letter-spacing: .06em; color: var(--ink-soft); }
 html .gyoseki-legend [lc="en"] { display: none; }
 body.en .gyoseki-legend [lc="ja"] { display: none; }
