@@ -37,7 +37,7 @@
   --fs-md: .9rem;
   --fs-lg: 1rem;
   --fs-h2: clamp(1.7rem, 3vw, 2.2rem);
-  --fs-h1: clamp(2.5rem, 5vw, 3.6rem);
+  --fs-h1: clamp(2.5rem, 5vw, 3.2rem);
 
   /* spacing */
   --sp-1: .25rem;
@@ -205,7 +205,7 @@ footer { background: var(--footer-bg); color: rgba(220, 232, 255, .65); padding:
     radial-gradient(900px 480px at 12% -15%, rgba(220, 232, 255, .12), transparent 60%),
     linear-gradient(150deg, var(--navy-deep) 0%, var(--accent) 55%, var(--navy-bright) 100%);
 }
-.hero-top { max-width: 1100px; margin: 0 auto; padding: 5rem 2.5rem 3.5rem 4.25rem; display: grid; grid-template-columns: 55% 45%; gap: 2rem; align-items: flex-end; }
+.hero-top { max-width: 1100px; margin: 0 auto; padding: 5rem 2.5rem 3.5rem 4.25rem; display: grid; grid-template-columns: 46% 54%; gap: 2rem; align-items: flex-end; }
 .hero-badge { display: inline-flex; align-items: center; gap: .5rem; background: rgba(255, 255, 255, .12); border: 1px solid rgba(220, 232, 255, .35); border-radius: 4px; padding: 4px 12px; font-size: var(--fs-2xs); font-family: var(--mono); letter-spacing: .08em; color: rgba(255, 255, 255, .85); margin-bottom: 1.2rem; animation: fadeUp .4s ease .1s both; }
 .hero-badge::before { content: '●'; font-size: .45rem; color: #ff7a4d; animation: badge-blink 2.4s ease-in-out infinite; }
 h1.hero-title { font-size: var(--fs-h1); font-weight: 700; line-height: 1.25; letter-spacing: -.03em; margin-bottom: .9rem; animation: fadeUp .4s ease .15s both; }
