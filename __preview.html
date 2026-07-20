@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全業績一覧 | CIRoS - 創価大学</title>
+
+  <meta name="description" content="CIRoS（創価大学理工学部 知能ロボティクス・センシング共創拠点）の全業績一覧。過去5年に限定しない研究論文・受賞歴・外部資金の全件を掲載しています。">
+  <meta name="keywords" content="CIRoS,知能ロボティクス,センシング,共創拠点,創価大学,業績一覧,論文,受賞,外部資金">
+  <meta name="author" content="知能ロボティクス・センシング共創拠点（CIRoS）, 創価大学理工学部">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#1a4fa0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ==== SEO: 公開URL要確認(BASE_URL) ==== -->
+  <!-- BASE_URL = https://yhagiwara.github.io/CIRoS/ -->
+  <link rel="canonical" href="https://yhagiwara.github.io/CIRoS/achievements.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <meta property="og:title" content="全業績一覧 | CIRoS - 創価大学">
+  <meta property="og:description" content="CIRoS の研究論文・受賞歴・外部資金の全件一覧（5年フィルタなし）。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yhagiwara.github.io/CIRoS/achievements.html">
+  <meta property="og:image" content="https://yhagiwara.github.io/CIRoS/Overview.jpg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="CIRoS">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="全業績一覧 | CIRoS - 創価大学">
+  <meta name="twitter:description" content="CIRoS の研究論文・受賞歴・外部資金の全件一覧（5年フィルタなし）。">
+  <meta name="twitter:image" content="https://yhagiwara.github.io/CIRoS/Overview.jpg">
+
+  <script src="renderer.js"></script>
+<script>
+  GyosekiRenderer.init({
+    url: 'data-all.json',
+    targets: {
+      publications: '#publications-all',
+      fundings: '#grants-all',
+      awards: '#awards-all'
+    },
+    lang: 'ja'
+  });
+</script>
+</head>
+<body>
+
+<header>
+  <nav aria-label="グローバルナビゲーション">
+    <a class="nav-brand" href="index.html">CIRoS<span>知能ロボティクス・センシング共創拠点</span></a>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('ja')">日本語</button>
+      <button class="lang-btn" onclick="setLang('en')">English</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero" style="padding-bottom: 1px;">
+  <div class="hero-top" style="grid-template-columns: 1fr; padding-bottom: 2.5rem;">
+    <div>
+      <a href="index.html" class="btn btn-ow" style="margin-bottom: 1.4rem;">
+        <span lc="ja">← トップへ戻る</span><span lc="en">← Back to Home</span>
+      </a>
+      <h1 class="hero-title" style="font-size: var(--fs-h2);">
+        <span lc="ja">全業績一覧</span>
+        <span lc="en">All Achievements</span>
+      </h1>
+      <p class="hero-sub" lc="ja">研究論文／発表・受賞歴・外部資金（過去5年フィルタなし・全承認済み業績）</p>
+      <p class="hero-sub" lc="en">Papers &amp; presentations, awards, and external funding — full record (no 5-year filter)</p>
+    </div>
+  </div>
+</div>
+
+<!-- TABS -->
+<div class="tabbar-wrap">
+  <div class="container tabbar" role="tablist" aria-label="業績カテゴリ">
+    <button type="button" class="tab-btn active" id="tab-btn-publications" role="tab" aria-selected="true" aria-controls="publications-all" onclick="selectTab('publications-all')">
+      <span lc="ja">研究論文／発表</span><span lc="en">Papers &amp; Presentations</span>
+    </button>
+    <button type="button" class="tab-btn" id="tab-btn-awards" role="tab" aria-selected="false" aria-controls="awards-all" onclick="selectTab('awards-all')">
+      <span lc="ja">受賞</span><span lc="en">Awards</span>
+    </button>
+    <button type="button" class="tab-btn" id="tab-btn-grants" role="tab" aria-selected="false" aria-controls="grants-all" onclick="selectTab('grants-all')">
+      <span lc="ja">外部資金獲得</span><span lc="en">External Funding</span>
+    </button>
+  </div>
+</div>
+
+<!-- PUBLICATIONS (ALL) -->
+<section id="publications-all" class="white-section" aria-label="研究論文／発表 全件" role="tabpanel" aria-labelledby="tab-btn-publications">
+  <div class="container">
+    <div class="slabel" lc="ja">研究論文／発表</div><div class="slabel" lc="en">Papers &amp; Presentations</div>
+    <h2 class="stitle" lc="ja">研究論文／発表 全件</h2><h2 class="stitle" lc="en">All Papers &amp; Presentations</h2>
+    <div class="sdiv"></div>
+    <ul class="plist">
+      <li><p class="gyoseki-empty" lc="ja">準備中</p><p class="gyoseki-empty" lc="en">Coming soon</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- AWARDS (ALL) -->
+<section id="awards-all" aria-label="受賞・表彰 全件" role="tabpanel" aria-labelledby="tab-btn-awards" style="display:none;">
+  <div class="container">
+    <div class="slabel" lc="ja">受賞・表彰</div><div class="slabel" lc="en">Awards &amp; Recognition</div>
+    <h2 class="stitle" lc="ja">受賞・表彰 全件</h2><h2 class="stitle" lc="en">All Awards</h2>
+    <div class="sdiv"></div>
+    <ul class="alist">
+      <li><p class="gyoseki-empty" lc="ja">準備中</p><p class="gyoseki-empty" lc="en">Coming soon</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- GRANTS (ALL) -->
+<section id="grants-all" class="white-section" aria-label="外部資金 全件" role="tabpanel" aria-labelledby="tab-btn-grants" style="display:none;">
+  <div class="container">
+    <div class="slabel" lc="ja">外部資金</div><div class="slabel" lc="en">External Funding</div>
+    <h2 class="stitle" lc="ja">外部資金 全件</h2><h2 class="stitle" lc="en">All External Funding</h2>
+    <div class="sdiv"></div>
+    <ul class="ggrid">
+      <li><p class="gyoseki-empty" lc="ja">準備中</p><p class="gyoseki-empty" lc="en">Coming soon</p></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="fi">
+    <div>
+      <div class="fb">CIRoS</div>
+      <address class="fs" lc="ja">知能ロボティクス・センシング共創拠点<br>創価大学 理工学部<br>〒192-8577 東京都八王子市丹木町1-236</address>
+      <address class="fs" lc="en">Center for Co-creation in Intelligent Robotics and Sensing<br>Faculty of Science and Technology, Soka University<br>1-236 Tangi-machi, Hachioji, Tokyo 192-8577, Japan</address>
+    </div>
+    <div class="f-cols">
+      <div class="fc">
+        <h4 lc="ja">ナビゲーション</h4><h4 lc="en">Navigation</h4>
+        <ul>
+          <li><a href="index.html" lc="ja">トップへ戻る</a><a href="index.html" lc="en">Back to Home</a></li>
+          <li><a href="index.html#publications" lc="ja">研究論文（主要）</a><a href="index.html#publications" lc="en">Publications (Selected)</a></li>
+          <li><a href="index.html#awards" lc="ja">受賞（主要）</a><a href="index.html#awards" lc="en">Awards (Selected)</a></li>
+          <li><a href="index.html#grants" lc="ja">外部資金（主要）</a><a href="index.html#grants" lc="en">Funding (Selected)</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4 lc="ja">連携機関</h4><h4 lc="en">Partners</h4>
+        <ul>
+          <li><a href="https://www.soka.ac.jp" target="_blank">Soka University</a></li>
+          <li><a href="https://www.tamagawa.ac.jp" target="_blank">Tamagawa University</a></li>
+          <li><a href="https://core-system.jp" target="_blank">Core System Japan</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="fbot">© 2026 CIRoS – Center for Co-creation in Intelligent Robotics and Sensing, Soka University. All rights reserved.</div>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('en', lang === 'en');
+    document.querySelectorAll('.lang-btn').forEach(b => {
+      b.classList.toggle('active', b.textContent.trim() === (lang === 'ja' ? '日本語' : 'English'));
+    });
+  }
+
+  var TAB_IDS = ['publications-all', 'awards-all', 'grants-all'];
+
+  function selectTab(id, opts) {
+    opts = opts || {};
+    TAB_IDS.forEach(function (sectionId) {
+      var section = document.getElementById(sectionId);
+      var btn = document.getElementById('tab-btn-' + sectionId.replace('-all', ''));
+      var active = sectionId === id;
+      if (section) {
+        section.style.display = active ? '' : 'none';
+      }
+      if (btn) {
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      }
+    });
+    if (!opts.skipHistory && typeof history !== 'undefined' && history.replaceState) {
+      history.replaceState(null, '', '#' + id);
+    }
+  }
+
+  (function initTabFromHash() {
+    var hash = (location.hash || '').replace('#', '');
+    var initial = TAB_IDS.indexOf(hash) !== -1 ? hash : 'publications-all';
+    selectTab(initial, { skipHistory: true });
+  })();
+</script>
+<script>addEventListener("load",function(){scrollTo(0,700)})</script></body>
+</html>
