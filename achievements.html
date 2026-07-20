@@ -36,7 +36,7 @@
 
   <script src="renderer.js"></script>
 <script>
-  GyosekiRenderer.init({
+  var GYOSEKI_OPTS = {
     url: 'data-all.json',
     targets: {
       publications: '#publications-all',
@@ -44,7 +44,8 @@
       awards: '#awards-all'
     },
     lang: 'ja'
-  });
+  };
+  GyosekiRenderer.init(GYOSEKI_OPTS);
 </script>
 </head>
 <body>
@@ -166,6 +167,11 @@
     document.querySelectorAll('.lang-btn').forEach(b => {
       b.classList.toggle('active', b.textContent.trim() === (lang === 'ja' ? '日本語' : 'English'));
     });
+    // 業績リストを選択言語で再レンダリング（en欠落時はrenderer側でjaへフォールバック）
+    if (window.GyosekiRenderer && GYOSEKI_OPTS.lang !== lang) {
+      GYOSEKI_OPTS.lang = lang;
+      GyosekiRenderer.init(GYOSEKI_OPTS);
+    }
   }
 
   var TAB_IDS = ['publications-all', 'awards-all', 'grants-all'];

@@ -76,7 +76,7 @@ img { max-width: 100%; }
 /* --------------------------------------------------------------------------
    3. LANGUAGE-SWITCH UTILITIES
    -------------------------------------------------------------------------- */
-[lc="en"] { display: none; }
+html [lc="en"] { display: none; } /* html付与で詳細度を上げ、.partner-tag等のdisplay指定に勝たせる */
 body.en [lc="ja"] { display: none; }
 body.en [lc="en"] { display: block; }
 .ie { display: none; } body.en .ie { display: inline; } body.en .ij { display: none; }
@@ -250,6 +250,7 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
 .partners { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }
 .partner-tag { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: .55rem 1rem; font-family: var(--mono); font-size: .74rem; color: var(--ink-soft); display: flex; align-items: center; gap: .5rem; }
 .partner-tag .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:block より優先し flex レイアウトを維持 */
 
 /* -- center / leadership -- */
 .center-box { position: relative; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 2rem 2.2rem; margin-bottom: 2.5rem; }

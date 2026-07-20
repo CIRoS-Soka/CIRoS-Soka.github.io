@@ -72,7 +72,7 @@
   <!-- ==== /SEO ==== -->
   <script src="renderer.js"></script>
 <script>
-  GyosekiRenderer.init({
+  var GYOSEKI_OPTS = {
     url: 'data.json',
     targets: {
       publications: '#publications',
@@ -81,7 +81,8 @@
     },
     lang: 'ja',
     maxItems: 5
-  });
+  };
+  GyosekiRenderer.init(GYOSEKI_OPTS);
 </script>
 </head>
 <body>
@@ -112,14 +113,14 @@
 <div class="hero">
   <div class="hero-top">
     <div>
-      <div class="hero-badge">創価大学 重点研究拠点認定 · 2026–2031</div>
+      <div class="hero-badge"><span lc="ja">創価大学 重点研究拠点認定 · 2026–2031</span><span lc="en">Designated Priority Research Hub, Soka University · 2026–2031</span></div>
       <h1 class="hero-title">
         <span class="dim">CIRoS</span><br>
         <span lc="ja">知能ロボティクス・<br>センシング共創拠点</span>
         <span lc="en">Center for Co-creation<br>in Intelligent Robotics<br>&amp; Sensing</span>
       </h1>
       <p class="hero-sub" lc="ja">Center for Co-creation in Intelligent Robotics and Sensing</p>
-      <p class="hero-sub" lc="en">創価大学 理工学部 重点研究拠点</p>
+      <p class="hero-sub" lc="en">Priority Research Hub, Faculty of Science and Engineering, Soka University</p>
       <p class="hero-desc" lc="ja">AI ロボット・センシング・仮想環境を統合し、実環境で柔軟に行動する次世代ロボットシステムの構築を目指す。産学・地域・学生との「共創」を核に、研究・教育・社会実装を推進します。</p>
       <p class="hero-desc" lc="en">Integrating AI robotics, sensing, and virtual environments toward next-generation robotic systems — advancing research, education, and social implementation through co-creation.</p>
       <div class="hero-btns">
@@ -168,9 +169,12 @@
     <p class="partners-label" lc="ja">連携機関</p>
     <p class="partners-label" lc="en">Partner Institutions</p>
     <ul class="partners">
-      <li class="partner-tag"><span class="dot" aria-hidden="true"></span>創価大学 理工学部</li>
-      <li class="partner-tag"><span class="dot" aria-hidden="true"></span>玉川大学 工学部 / 脳科学研究所</li>
-      <li class="partner-tag"><span class="dot" aria-hidden="true"></span>株式会社 コアシステムジャパン</li>
+      <li class="partner-tag" lc="ja"><span class="dot" aria-hidden="true"></span>創価大学 理工学部</li>
+      <li class="partner-tag" lc="en"><span class="dot" aria-hidden="true"></span>Soka University, Faculty of Science and Engineering</li>
+      <li class="partner-tag" lc="ja"><span class="dot" aria-hidden="true"></span>玉川大学 工学部 / 脳科学研究所</li>
+      <li class="partner-tag" lc="en"><span class="dot" aria-hidden="true"></span>Tamagawa University, College of Engineering / Brain Science Institute</li>
+      <li class="partner-tag" lc="ja"><span class="dot" aria-hidden="true"></span>株式会社 コアシステムジャパン</li>
+      <li class="partner-tag" lc="en"><span class="dot" aria-hidden="true"></span>Core System Japan Co., Ltd.</li>
     </ul>
   </div>
 </section>
@@ -342,6 +346,11 @@
     document.querySelectorAll('.lang-btn').forEach(b => {
       b.classList.toggle('active', b.textContent.trim() === (lang === 'ja' ? '日本語' : 'English'));
     });
+    // 業績セクションを選択言語で再レンダリング（en欠落時はrenderer側でjaへフォールバック）
+    if (window.GyosekiRenderer && GYOSEKI_OPTS.lang !== lang) {
+      GYOSEKI_OPTS.lang = lang;
+      GyosekiRenderer.init(GYOSEKI_OPTS);
+    }
   }
 
   (function () {
