@@ -1,0 +1,1031 @@
+{
+  "meta": {
+    "generated_at": "2026-07-20T04:36:01.561Z",
+    "schema_version": "1.0",
+    "scope": "all"
+  },
+  "publications": [
+    {
+      "title": {
+        "ja": "",
+        "en": "Multi-robot task planning for multi-object retrieval tasks with distributed on-site knowledge via large language models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kento Murata, Shoichi Hasegawa, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Artificial Life and Robotics"
+      },
+      "volume": 31,
+      "number": 2,
+      "year": 2026,
+      "doi": "10.1007/s10015-026-01123-8",
+      "url": "https://doi.org/10.1007/s10015-026-01123-8",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "暗渠内におけるモルタル搬送のためのLiDARを用いた自律移動ロボットの検証",
+        "en": "Experiment of Autonomous Mobile Robot for Mortar Transport in Culverts"
+      },
+      "authors": {
+        "ja": "田尻隼人, 鈴木彰真",
+        "en": "田尻隼人, 鈴木彰真"
+      },
+      "journal": {
+        "ja": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)",
+        "en": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)"
+      },
+      "volume": 15,
+      "number": 2,
+      "year": 2025,
+      "doi": "",
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502288646732352",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Spatial Concepts-based Prompts with Large Language Models for Robot Action Planning"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Access"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/access.2025.3647727",
+      "url": "https://doi.org/10.1109/access.2025.3647727",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "マルチモーダル大規模言語モデルによる複数ロボットの知識統合とタスク割当を用いた現場学習のコスト削減",
+        "en": "Reducing Cost of On-site Learning by Multi-robot Knowledge Integration and Task Allocation via Large Language Models"
+      },
+      "authors": {
+        "ja": "長谷川翔一, 村田健人, 石川朋親, 萩原良信, 谷口彰, エルハフィロトフィ, ガルシアグスタボ, 谷口忠大",
+        "en": "Shoichi Hasegawa, Kento Murata, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Gustavo Garcia, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "日本ロボット学会誌",
+        "en": "Journal of the Robotics Society of Japan"
+      },
+      "volume": 43,
+      "number": 7,
+      "year": 2025,
+      "doi": "10.7210/jrsj.43.703",
+      "url": "https://doi.org/10.7210/jrsj.43.703",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Co-Creative Learning via Metropolis-Hastings Interaction between Humans and AI."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ryota Okumura, Tadahiro Taniguchi, Akira Taniguchi, Yoshinobu Hagiwara"
+      },
+      "journal": {
+        "ja": "",
+        "en": "CoRR"
+      },
+      "volume": "abs/2506.15468",
+      "number": "",
+      "year": 2025,
+      "doi": "10.48550/arXiv.2506.15468",
+      "url": "https://doi.org/10.48550/arXiv.2506.15468",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-core fiber optic pH sensor coated with Au nanoparticles immobilized in pH-sensitive polymer multilayers"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Banerjee, D., Watanabe, K., Seki, A., Nishiyama, M."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Optics Express"
+      },
+      "volume": 33,
+      "number": 11,
+      "year": 2025,
+      "doi": "10.1364/OE.559509",
+      "url": "https://doi.org/10.1364/OE.559509",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Interaction Quality Evaluation in Guiding Human Daily Life Behavior"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Journal of Robotics and Mechatronics"
+      },
+      "volume": 37,
+      "number": 3,
+      "year": 2025,
+      "doi": "10.20965/jrm.2025.p0604",
+      "url": "https://doi.org/10.20965/jrm.2025.p0604",
+      "major": false
+    }
+  ],
+  "fundings": [
+    {
+      "title": {
+        "ja": "VLAモデルとセマンティックマップを活用した大規模言語モデルによる生活支援ロボットの汎用タスク実行",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2026,
+      "period": {
+        "from": "2026-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "確率的知識を用いた曖昧発話からのロボット行動生成基盤の創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2028-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "大規模言語モデルを活用した異種ロボットの逐次的なタスク割当と行動計画",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "磁性流体を用いた表面プラズモン共鳴に基づくヘテロコア光ファイバ磁場センサの研究開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "精密測定技術振興のための調査・研究事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "公益財団法人精密測定技術振興財団",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-01",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "ロボット基盤モデルによる個性適応型協調インタラクションのための拡張技術の構築",
+        "en": ""
+      },
+      "system": {
+        "ja": "公募型共同研究",
+        "en": ""
+      },
+      "funder": {
+        "ja": "国立情報学研究所",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-07",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "基盤モデルと現場学習を統合した言語理解に基づくマルチロボット協調タスク",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "フェムト秒レーザー加工分光セルを用いる生体分子検出システムの開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "窪寺 昌一",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "対話行動の品質評価におけるユーザの価値観推定手法の確立",
+        "en": ""
+      },
+      "system": {
+        "ja": "公益財団法人栢森情報科学振興財団 助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-01",
+        "to": "2025-12"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "知識転移技術による複数ロボットにおける新規環境学習の高速化",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2023,
+      "period": {
+        "from": "2023-04",
+        "to": "2024-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "生活支援ロボットの多拠点間マルチモーダル知識転移を実現するシステム基盤創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2022,
+      "period": {
+        "from": "2022-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "低炭素社会に貢献する水素航空機のためのマルチモーダル光ファイバセンサの研究",
+        "en": "Fiber optic multimodal sensors for hydrogen-powered aircraft for a low-carbon society"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "西山 道子",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2022,
+      "period": {
+        "from": "2022-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "概念の転移学習モデルに基づくロボット間における知識転移ネットワークの基盤技術創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "研究高度化推進プログラム（科研費連動型）",
+        "en": ""
+      },
+      "funder": {
+        "ja": "立命館大学",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2021,
+      "period": {
+        "from": "2021-04",
+        "to": "2022-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "転移学習モデルによる場所概念の実世界オンライン学習と可視化",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "トヨタ自動車",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2020,
+      "period": {
+        "from": "2020-04",
+        "to": "2022-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "没入型VRを活用した対人誘導行動の評価手法の確立と対人誘導機能の構築への応用",
+        "en": "Establishment of an evaluation method for human guidance behavior using immersive VR and application to human guidance functions"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "水地 良明",
+        "en": "MIZUCHI Yoshiaki"
+      },
+      "role": "",
+      "badge": "",
+      "year": 2019,
+      "period": {
+        "from": "2019-04",
+        "to": "2022-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "概念のプロトタイプ獲得を可能とするロボットの認知モデルの構築と大規模転移学習",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2018,
+      "period": {
+        "from": "2018-04",
+        "to": "2022-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "転移学習と能動学習の適用による場所概念形成手法の実応用に向けた学習効率化",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "トヨタ自動車",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2018,
+      "period": {
+        "from": "2018-04",
+        "to": "2020-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "SS超音波を用いた人・ロボットの屋内位置情報計測・蓄積システム",
+        "en": "Indoor Positioning and Storage System for Human and Robots Using SS Ultrasonic Waves"
+      },
+      "system": {
+        "ja": "科学研究費助成事業 若手研究(B)",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "鈴木 彰真",
+        "en": "Suzuki Akimasa"
+      },
+      "role": "",
+      "badge": "",
+      "year": 2017,
+      "period": {
+        "from": "2017-04",
+        "to": "2020-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "視覚・触覚統合による身体図式推定手法の開発と幻肢リハビリシステムへの展開",
+        "en": ""
+      },
+      "system": {
+        "ja": "研究高度化推進プログラム（科研費連動型）",
+        "en": ""
+      },
+      "funder": {
+        "ja": "立命館大学",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2017,
+      "period": {
+        "from": "2017-04",
+        "to": "2018-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "クラウド仮想環境に基づく社会的マルチモーダル概念学習基盤",
+        "en": "Platform for concept formation based on multimodal information using a cloud VR system"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": "Yoshinobu Hagiwara"
+      },
+      "role": "",
+      "badge": "",
+      "year": 2016,
+      "period": {
+        "from": "2016-04",
+        "to": "2018-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "ロボットを活用した場所概念の獲得の研究",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "トヨタ自動車",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2016,
+      "period": {
+        "from": "2016-04",
+        "to": "2018-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "注視・対人行動の収集を可能とする没入型インタフェースを伴うクラウド型VRシステム",
+        "en": ""
+      },
+      "system": {
+        "ja": "研究高度化推進プログラム（科研費連動型）",
+        "en": ""
+      },
+      "funder": {
+        "ja": "立命館大学",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2015,
+      "period": {
+        "from": "2015-04",
+        "to": "2016-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "音声対話と人追跡機能を用いたView-based Navigationに基づくロボットへの場所教示システム",
+        "en": ""
+      },
+      "system": {
+        "ja": "研究高度化推進プログラム（若手研究）",
+        "en": ""
+      },
+      "funder": {
+        "ja": "立命館大学",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2015,
+      "period": {
+        "from": "2015-04",
+        "to": "2016-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "極端紫外域における金属ナトリウムの光学特性の精密評価",
+        "en": "Absorption spectroscopy of metal sodium in the extreme ultraviolet spectral region"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "窪寺 昌一",
+        "en": "Kubodera Shoichi"
+      },
+      "role": "",
+      "badge": "",
+      "year": 2014,
+      "period": {
+        "from": "2014-04",
+        "to": "2016-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "安全な水素ガス漏洩検出を実現するヘテロコア光ファイバセンサの研究",
+        "en": "Hetero-core fiber optic sensor for safety hydrogen leakage detection"
+      },
+      "system": {
+        "ja": "科学研究費",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "文部科学省",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "西山 道子",
+        "en": "NISHIYAMA Michiko"
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2012,
+      "period": {
+        "from": 2012,
+        "to": 2013
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "身体感覚運動を伴う対話シミュレーションに基づく社会知能創成",
+        "en": "Development of Social Intelligence based on Interaction Simulation with Embodied Sensorimotor Patterns"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "稲邑 哲也",
+        "en": "INAMURA Tetsunari"
+      },
+      "role": "",
+      "badge": "",
+      "year": 2011,
+      "period": {
+        "from": "2011-04",
+        "to": "2015-03"
+      },
+      "grant_number": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": {
+        "ja": "Best Poster Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Open Platform，@Home League",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup日本委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "優勝",
+        "en": ""
+      },
+      "target": {
+        "ja": "@Space Challenge Open Category",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup @Space Challenge 実行委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "1位",
+        "en": ""
+      },
+      "target": {
+        "ja": "@Space Challenge",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup日本委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "地上生活支援ロボット技術の宇宙転用に向けた自律宇宙ロボット研究の競技的架橋",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "岡田浩之, 池田勇輝, 萩原良信, Amy Eguchi, 稲邑哲也, 大井翔, 大橋健, 西野順二, 野間春生",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "優秀講演賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボットの曖昧発話理解に向けた物体・場所統合セマンティックマップによる位置推定",
+        "en": ""
+      },
+      "organization": {
+        "ja": "計測自動制御学会システムインテグレーション部門",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "鈴木幸四郎, 萩原良信",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "Advanced Robotics Best Paper Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Active Exploration based on Information Gain by Particle Filter for Efficient Spatial Concept Formation",
+        "en": ""
+      },
+      "organization": {
+        "ja": "The Robotics Society of Japan",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "Akira Taniguchi, Yoshiki Tabuchi, Tomochika Ishikawa, Lotfi El Hafi, Yoshinobu Hagiwara, and Tadahiro Taniguchi",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボカップ＠ホーム Kachaka Challenge の創出",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "水谷彰伸,Valentin Keith,寺田耕志,萩原良信,岡田浩之",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "Best Oral Presentation Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Introduction to SOBITS strategy for General Purpose Life-Support Robots",
+        "en": ""
+      },
+      "organization": {
+        "ja": "Malaysia AI Robotics Society",
+        "en": ""
+      },
+      "year": 2024,
+      "recipients": {
+        "ja": "K. Valentin, J. Sim, F. Ono, K. Suzuki, J. Lee, Y. Hagiwara, Y. Choi",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "HSRコミュニティ優秀論文賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "「現場環境で学習した知識に基づく曖昧な発話からの生活物理支援タスク」",
+        "en": ""
+      },
+      "organization": {
+        "ja": "インテリジェントホームロボティクス研究専門委員会（日本ロボット学会）",
+        "en": ""
+      },
+      "year": 2023,
+      "recipients": {
+        "ja": "萩原良信, 長谷川翔一, 大山瑛, 谷口彰, エルハフィロトフィ, 谷口忠大",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "人工知能学会賞",
+        "en": "The Japanese Society for Artificial Intelligence Award"
+      },
+      "target": {
+        "ja": "",
+        "en": ""
+      },
+      "organization": {
+        "ja": "",
+        "en": ""
+      },
+      "year": 2023,
+      "recipients": {
+        "ja": "Home Simulation OPL運営委員",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "SI2020 優秀講演賞",
+        "en": "Outstanding Presentation Award, SICE SI2020"
+      },
+      "target": {
+        "ja": "ロボットとの身体性を伴う対話実験をクラウドソーシング化するVRプラットフォーム－リアルタイムでのクライアント・サーバ通信によるマルチエージェントインタラクション－",
+        "en": ""
+      },
+      "organization": {
+        "ja": "",
+        "en": ""
+      },
+      "year": 2020,
+      "recipients": {
+        "ja": "水地 良明, 山田 裕基, 稲邑 哲也",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": "Award of The Robotics Society of Japan"
+      },
+      "target": {
+        "ja": "WRS (World Robot Summit)2018@Home League",
+        "en": "WRS (World Robot Summit) 2018@Home League"
+      },
+      "organization": {
+        "ja": "WRS (World Robot Summit) 2018ロボカップ日本実行委員会",
+        "en": "WRS (World Robot Summit) 2018"
+      },
+      "year": 2018,
+      "recipients": {
+        "ja": "Team「SOBITs」",
+        "en": "Team「SOBITs」"
+      }
+    }
+  ]
+}
