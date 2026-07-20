@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T04:36:10.800Z",
+    "generated_at": "2026-07-20T05:09:37.485Z",
     "schema_version": "1.0",
     "scope": "recent"
   },
@@ -27,6 +27,46 @@
     },
     {
       "title": {
+        "ja": "Toward Ownership Understanding of Objects: Active Question Generation with Large Language Model and Probabilistic Generative Model",
+        "en": "Toward Ownership Understanding of Objects: Active Question Generation with Large Language Model and Probabilistic Generative Model"
+      },
+      "authors": {
+        "ja": "Saki Hashimoto, Shoichi Hasegawa, Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi",
+        "en": "Saki Hashimoto, Shoichi Hasegawa, Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "31st International Symposium on Artificial Life and Robotics and 11th International Symposium on BioComplexity (AROB-ISBC)",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Designing Interaction Preferences for Augmenting Collaborative Capabilities in Daily Tasks"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Taisuke Kobayashi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings of the Augmented Humans International Conference 2026"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "10.1145/3795011.3797390",
+      "url": "https://doi.org/10.1145/3795011.3797390",
+      "major": false
+    },
+    {
+      "title": {
         "ja": "暗渠内におけるモルタル搬送のためのLiDARを用いた自律移動ロボットの検証",
         "en": "Experiment of Autonomous Mobile Robot for Mortar Transport in Culverts"
       },
@@ -43,6 +83,26 @@
       "year": 2025,
       "doi": "",
       "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502288646732352",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Small Obstacle-Aware Person-Following for Mobile Robots Using Vision-Based Segmentation"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/gcce65946.2025.11275154",
+      "url": "https://doi.org/10.1109/gcce65946.2025.11275154",
       "major": false
     },
     {
@@ -67,6 +127,26 @@
     },
     {
       "title": {
+        "ja": "“SOBIT LIGHT: An Accessible Open MoMa for data collection",
+        "en": "“SOBIT LIGHT: An Accessible Open MoMa for data collection"
+      },
+      "authors": {
+        "ja": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi",
+        "en": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)",
+        "en": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
         "ja": "マルチモーダル大規模言語モデルによる複数ロボットの知識統合とタスク割当を用いた現場学習のコスト削減",
         "en": "Reducing Cost of On-site Learning by Multi-robot Knowledge Integration and Task Allocation via Large Language Models"
       },
@@ -83,6 +163,46 @@
       "year": 2025,
       "doi": "10.7210/jrsj.43.703",
       "url": "https://doi.org/10.7210/jrsj.43.703",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Take That for Me: Multimodal Exophora Resolution with Interactive Questioning for Ambiguous Out-of-View Instructions"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/ro-man63969.2025.11217563",
+      "url": "https://doi.org/10.1109/ro-man63969.2025.11217563",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Public Evaluation on Potential Social Impacts of Fully Autonomous Cybernetic Avatars for Physical Support in Daily-Life Environments: Large-Scale Demonstration and Survey at Avatar Land"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Lotfi El Hafi, Kazuma Onishi, Shoichi Hasegawa, Akira Oyama, Tomochika Ishikawa, Masashi Osada, Carl Tornberg, Ryoma Kado, Kento Murata, Saki Hashimoto, Sebastian Carrera Villalobos, Akira Taniguchi, Gustavo Alfonso Garcia Ricardez, Yoshinobu Hagiwara, Tatsuya Aoki, Kensuke Iwata, Takato Horii, Yukiko Horikawa, Takahiro Miyashita, Tadahiro Taniguchi, Hiroshi Ishiguro"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 IEEE International Conference on Advanced Robotics and its Social Impacts (ARSO)"
+      },
+      "volume": "abs/2507.12741",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/arso64737.2025.11124957",
+      "url": "https://doi.org/10.1109/arso64737.2025.11124957",
       "major": false
     },
     {
@@ -127,6 +247,26 @@
     },
     {
       "title": {
+        "ja": "HSRを用いたホームサービスロボット開発にお けるfew-shot物体認識と基盤モデル活用に向 けた取り組み",
+        "en": ""
+      },
+      "authors": {
+        "ja": "堀 三晟, 竹中 直哉, 坂巻 新, 水地 良明, 西野 順二, 稲邑 哲也",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第43回日本ロボット学会学術講演会講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
         "ja": "",
         "en": "Interaction Quality Evaluation in Guiding Human Daily Life Behavior"
       },
@@ -143,6 +283,1206 @@
       "year": 2025,
       "doi": "10.20965/jrm.2025.p0604",
       "url": "https://doi.org/10.20965/jrm.2025.p0604",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Extraction of Latent Variables for Modeling Subjective Quality in Time-series Human-Robot Interaction"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Taisuke Kobayashi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 IEEE/SICE International Symposium on System Integration (SII)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/sii59315.2025.10870927",
+      "url": "https://doi.org/10.1109/sii59315.2025.10870927",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Study on Development of a Fiber Optic Sensor for Fire Monitoring System in Switchboard",
+        "en": "Study on Development of a Fiber Optic Sensor for Fire Monitoring System in Switchboard"
+      },
+      "authors": {
+        "ja": "E. J. Wi, Y. Choi, Y. B. Kim",
+        "en": "E. J. Wi, Y. Choi, Y. B. Kim"
+      },
+      "journal": {
+        "ja": "Journal of Power System Engineering",
+        "en": "Journal of Power System Engineering"
+      },
+      "volume": 28,
+      "number": 4,
+      "year": 2024,
+      "doi": "10.9726/kspse.2024.28.4.053",
+      "url": "https://doi.org/10.9726/kspse.2024.28.4.053",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Motion Control of Offshore Platform Transporter by Cooperative Control of Multiple Tugboats",
+        "en": "Motion Control of Offshore Platform Transporter by Cooperative Control of Multiple Tugboats"
+      },
+      "authors": {
+        "ja": "J. S. Park, Y. Choi, D. H. Lee, Y. B. Kim",
+        "en": "J. S. Park, Y. Choi, D. H. Lee, Y. B. Kim"
+      },
+      "journal": {
+        "ja": "Journal of Power System Engineering",
+        "en": "Journal of Power System Engineering"
+      },
+      "volume": 28,
+      "number": 1,
+      "year": 2024,
+      "doi": "10.9726/kspse.2024.28.1.051",
+      "url": "https://doi.org/10.9726/kspse.2024.28.1.051",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Real-World Instance-Specific Image Goal Navigation: Bridging Domain Gaps via Contrastive Learning"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Taichi Sakaguchi, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Shoichi Hasegawa, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings - 2024 8th IEEE International Conference on Robotic Computing, IRC 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/IRC63610.2024.00032",
+      "url": "https://doi.org/10.1109/IRC63610.2024.00032",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "ECRAP: Exophora Resolution and Classifying User Commands for Robot Action Planning by Large Language Models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings - 2024 8th IEEE International Conference on Robotic Computing, IRC 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/IRC63610.2024.00007",
+      "url": "https://doi.org/10.1109/IRC63610.2024.00007",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots.",
+        "en": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots."
+      },
+      "authors": {
+        "ja": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi",
+        "en": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+        "en": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SMC54092.2024.10831649",
+      "url": "https://doi.org/10.1109/SMC54092.2024.10831649",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Object Instance Retrieval in Assistive Robotics: Leveraging Fine-Tuned SimSiam with Multi-View Images Based on 3D Semantic Map"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Taichi Sakaguchi, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Shoichi Hasegawa, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE International Conference on Intelligent Robots and Systems"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/IROS58592.2024.10802697",
+      "url": "https://doi.org/10.1109/IROS58592.2024.10802697",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Compositionality and Generalization in Emergent Communication Using Metropolis-Hastings Naming Game"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Nguyen Le Hoang, Yuta Matsui, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2024 IEEE International Conference on Development and Learning, ICDL 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/ICDL61372.2024.10644635",
+      "url": "https://doi.org/10.1109/ICDL61372.2024.10644635",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Real-world Instance-specific Image Goal Navigation for Service Robots: Bridging the Domain Gap with Contrastive Learning."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Taichi Sakaguchi, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Shoichi Hasegawa, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "CoRR"
+      },
+      "volume": "abs/2404.09645",
+      "number": "",
+      "year": 2024,
+      "doi": "10.48550/arXiv.2404.09645",
+      "url": "https://doi.org/10.48550/arXiv.2404.09645",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Emergent communication of multimodal deep generative models based on Metropolis-Hastings naming game"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Nguyen Le Hoang, Tadahiro Taniguchi, Yoshinobu Hagiwara, Akira Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Frontiers in Robotics and AI"
+      },
+      "volume": 10,
+      "number": "",
+      "year": 2024,
+      "doi": "10.3389/frobt.2023.1290604",
+      "url": "https://doi.org/10.3389/frobt.2023.1290604",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Interactive Learning System for 3D Semantic Segmentation with Autonomous Mobile Robots"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akinori Kanechika, Lotfi El Hafi, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2024 IEEE/SICE International Symposium on System Integration, SII 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SII58957.2024.10417237",
+      "url": "https://doi.org/10.1109/SII58957.2024.10417237",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Lipid-coated hetero-core optical fiber sensor for wide-range chemical detection"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ai Hosoki, Michiko Nishiyama, Norikazu Kumekawa, Kazuhiro Watanabe, Rui Yatabe, Yusuke Tahara, Takeshi Onodera, Akifumi Sugiyama, Nozomu Sakurai"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Optics &amp; Laser Technology"
+      },
+      "volume": 169,
+      "number": "",
+      "year": 2024,
+      "doi": "10.1016/j.optlastec.2023.110045",
+      "url": "https://doi.org/10.1016/j.optlastec.2023.110045",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-core fiber-optic surface plasmon resonance sensor with ionic liquid gel coating for CO2 sensing"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kosugi, Y., Suzuki, M., Nishiyama, M., Watanabe, K., Ida, J."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Materials Research Express"
+      },
+      "volume": 11,
+      "number": 6,
+      "year": 2024,
+      "doi": "10.1088/2053-1591/ad58ab",
+      "url": "https://doi.org/10.1088/2053-1591/ad58ab",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Cuff-less blood pressure estimation using hetero-core optical fibers"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Koyama, Y., Kamada, H., Watanabe, K., Nishiyama, M."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Electronics and Communications in Japan"
+      },
+      "volume": 107,
+      "number": 1,
+      "year": 2024,
+      "doi": "10.1002/ecj.12438",
+      "url": "https://doi.org/10.1002/ecj.12438",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Wearable Textile Sensor Using Hetero-Core Optical Fiber for Blood Pressure Measurement."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ryouta Takayama, Michiko Nishiyama, Yuya Koyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE SENSORS"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SENSORS60989.2024.10784699",
+      "url": "https://doi.org/10.1109/SENSORS60989.2024.10784699",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Long-term Durability Evaluation of Hetero-core Optical Fiber Hydrogen Sensor Composed of Palladium Nanoparticles and Poly-L-lysine."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yuna Nakamura, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE SENSORS"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SENSORS60989.2024.10784685",
+      "url": "https://doi.org/10.1109/SENSORS60989.2024.10784685",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Low-Frequency Structural Vibration Monitoring Using a Hetero-Core Fiber Optic Accelerometer."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Atsuki Hirosel, Miyuki Kadokura, Tokio Kasai, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE SENSORS"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SENSORS60989.2024.10784785",
+      "url": "https://doi.org/10.1109/SENSORS60989.2024.10784785",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-Core Fiber Optic Glucose Sensor Coated with Glucose Oxidase Immobilized in pH-Sensitive Polymer Multilayer of Poly-L-Lysine and Poly Acrylic Acid."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Deepro Banerjee, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE SENSORS"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SENSORS60989.2024.10784794",
+      "url": "https://doi.org/10.1109/SENSORS60989.2024.10784794",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "スマートフォンを用いた生活支援ロボットのための動的物体教示簡易インターフェイスの提案",
+        "en": ""
+      },
+      "authors": {
+        "ja": "竹中直哉, 坂巻新, 水地良明, 稲邑哲也",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第25回計測自動制御学会システムインテグレーション部門講演会(SI2024) 講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "人を含めたデジタルツインの活用による生活支援ロボットの対話知能の技術開発",
+        "en": ""
+      },
+      "authors": {
+        "ja": "水地 良明, 坂巻 新, 堀 三晟, 西野 順二, 稲邑 哲也",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第42回日本ロボット学会学術講演会講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Metropolis-Hastings algorithm in joint-attention naming game: experimental semiotics study"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ryota Okumura, Tadahiro Taniguchi, Yoshinobu Hagiwara, Akira Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Frontiers in Artificial Intelligence"
+      },
+      "volume": 6,
+      "number": "",
+      "year": 2023,
+      "doi": "10.3389/frai.2023.1235231",
+      "url": "https://doi.org/10.3389/frai.2023.1235231",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Integrating probabilistic logic and multimodal spatial concepts for efficient robotic object search in home environments"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "SICE Journal of Control, Measurement, and System Integration"
+      },
+      "volume": 16,
+      "number": 1,
+      "year": 2023,
+      "doi": "10.1080/18824889.2023.2283954",
+      "url": "https://doi.org/10.1080/18824889.2023.2283954",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Cross-Situational Word Learning in Disentangled Latent Space."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yuta Matsui, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE International Conference on Development and Learning (ICDL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/ICDL55364.2023.10364474",
+      "url": "https://doi.org/10.1109/ICDL55364.2023.10364474",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Lexical Acquisition with Cross-Situational Learning Based on Mutual Segmentation of Sentences and Multi-Attribute Sensory Information."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Takafumi Horie, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE International Conference on Development and Learning (ICDL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/ICDL55364.2023.10364383",
+      "url": "https://doi.org/10.1109/ICDL55364.2023.10364383",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Active Semantic Mapping for Household Robots: Rapid Indoor Adaptation and Reduced User Burden"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/smc53992.2023.10394143",
+      "url": "https://doi.org/10.1109/smc53992.2023.10394143",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Recursive Metropolis-Hastings naming game: symbol emergence in a multi-agent system based on probabilistic generative models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Jun Inukai, Tadahiro Taniguchi, Akira Taniguchi, Yoshinobu Hagiwara"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Frontiers in Artificial Intelligence"
+      },
+      "volume": 6,
+      "number": "",
+      "year": 2023,
+      "doi": "10.3389/frai.2023.1229127",
+      "url": "https://doi.org/10.3389/frai.2023.1229127",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Emergent communication through Metropolis-Hastings naming game with deep generative models."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Tadahiro Taniguchi, Yuto Yoshida, Yuta Matsui, Nguyen Le Hoang, Akira Taniguchi, Yoshinobu Hagiwara"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 37,
+      "number": 19,
+      "year": 2023,
+      "doi": "10.1080/01691864.2023.2260856",
+      "url": "https://doi.org/10.1080/01691864.2023.2260856",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Exophora Resolution of Linguistic Instructions with a Demonstrative based on Real-World Multimodal Information."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Hikaru Nakagawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "The 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/RO-MAN57019.2023.10309487",
+      "url": "https://doi.org/10.1109/RO-MAN57019.2023.10309487",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Active exploration based on information gain by particle filter for efficient spatial concept formation."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Taniguchi, Yoshiki Tabuchi, Tomochika Ishikawa, Lotfi El Hafi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 37,
+      "number": 13,
+      "year": 2023,
+      "doi": "10.1080/01691864.2023.2225175",
+      "url": "https://doi.org/10.1080/01691864.2023.2225175",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Symbol emergence as interpersonal cross-situational learning: the emergence of lexical knowledge with combinatoriality."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshinobu Hagiwara, Kazuma Furukawa, Takafumi Horie, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "CoRR"
+      },
+      "volume": "abs/2306.15837",
+      "number": "",
+      "year": 2023,
+      "doi": "10.48550/arXiv.2306.15837",
+      "url": "https://doi.org/10.48550/arXiv.2306.15837",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Inferring Place-Object Relationships by Integrating Probabilistic Logic and Multimodal Spatial Concepts"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE/SICE International Symposium on System Integration, SII 2023"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/SII55687.2023.10039318",
+      "url": "https://doi.org/10.1109/SII55687.2023.10039318",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Point Cloud-Based Spacecraft Self-Localization for Distant Small Body Exploration"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shuya KASHIOKA, Genki OHIRA, Yuki TAKAO, Taketoshi IYOTA, Yuichi TSUDA"
+      },
+      "journal": {
+        "ja": "",
+        "en": "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN"
+      },
+      "volume": 21,
+      "number": "",
+      "year": 2023,
+      "doi": "10.2322/tastj.21.19",
+      "url": "https://doi.org/10.2322/tastj.21.19",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Triaxial Accelerometer Based on a Semicircular Hetero-Core Fiber-Optic Sensor"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kadokura, M., Yamazaki, H., Kasai, T., Watanabe, K., Nishiyama, M."
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Sensors Journal"
+      },
+      "volume": 23,
+      "number": 7,
+      "year": 2023,
+      "doi": "10.1109/JSEN.2023.3246056",
+      "url": "https://doi.org/10.1109/JSEN.2023.3246056",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "A Fiber-Optic Non-Invasive Swallowing Assessment Device Based on a Wearable Pressure Sensor."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Masanori Maeda, Miyuki Kadokura, Ryoko Aoki, Noriko Komatsu, Masaru Kawakami, Yuya Koyama, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Sensors (Basel, Switzerland)"
+      },
+      "volume": 23,
+      "number": 4,
+      "year": 2023,
+      "doi": "10.3390/s23042355",
+      "url": "https://doi.org/10.3390/s23042355",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Practical Triaxial Accelerometer Using a Base-Embedded Semicircular Hetero-Core Fiber-Optic Sensor"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Miyuki Kadokura, Tokio Kasai, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings - 28th International Conference on Optical Fiber Sensors, OFS 2023"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1364/OFS.2023.tu3.89",
+      "url": "https://doi.org/10.1364/OFS.2023.tu3.89",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Designing Evaluation Metrics for Quality of Human-Robot Interaction in Guiding Human Behavior"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Yusuke Tanno, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "HAI '23: Proceedings of the 11th International Conference on Human-Agent Interaction"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1145/3623809.3623835",
+      "url": "https://doi.org/10.1145/3623809.3623835",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "対人誘導タスクにおける対話行動の品質評価のための評価指標の設計",
+        "en": ""
+      },
+      "authors": {
+        "ja": "丹野 裕理, 水地 良明, 稲邑 哲也",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第24回計測自動制御学会システムインテグレーション部門講演会(SI2023) 講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "生活支援ロボットの対話知能構築に向けたサイバーフィジカル技術開発",
+        "en": ""
+      },
+      "authors": {
+        "ja": "水地 良明, Contreras Luis, 稲邑 哲也, 岡田 浩之",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第41回日本ロボット学会学術講演会講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "対人誘導タスクにおける大規模言語モデルを利用した指示文章生成",
+        "en": ""
+      },
+      "authors": {
+        "ja": "水地 良明, 石川 藍輝, 稲邑 哲也",
+        "en": ""
+      },
+      "journal": {
+        "ja": "第41回日本ロボット学会学術講演会講演論文集",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Evaluation of an Online Human-Robot Interaction Competition Platform based on Virtual Reality – Case Study in RCAP2021",
+        "en": "Evaluation of an Online Human-Robot Interaction Competition Platform based on Virtual Reality – Case Study in RCAP2021"
+      },
+      "authors": {
+        "ja": "Yoshiaki Mizuchi, Hiroki Yamada, Tetsunari Inamura",
+        "en": "Yoshiaki Mizuchi, Hiroki Yamada, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "Advanced Robotics",
+        "en": "Advanced Robotics"
+      },
+      "volume": 37,
+      "number": 8,
+      "year": 2023,
+      "doi": "10.1080/01691864.2022.2145235",
+      "url": "https://doi.org/10.1080/01691864.2022.2145235",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Development of a Portable Interface System Sharing the Positioning and Heading Information to Support a Berthing Vessel",
+        "en": "Development of a Portable Interface System Sharing the Positioning and Heading Information to Support a Berthing Vessel"
+      },
+      "authors": {
+        "ja": "K. Ito, T. Tsuyuzaki, D. Yuasa, Y. Choi, Y. Kim",
+        "en": "K. Ito, T. Tsuyuzaki, D. Yuasa, Y. Choi, Y. Kim"
+      },
+      "journal": {
+        "ja": "Journal of Marine Science and Engineering",
+        "en": "Journal of Marine Science and Engineering"
+      },
+      "volume": 10,
+      "number": 11,
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Multimodal Object Categorization with Reduced User Load through Human-Robot Interaction in Mixed Reality"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Hitoshi Nakamura, Lotfi El Hafi, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/iros47612.2022.9981374",
+      "url": "https://doi.org/10.1109/iros47612.2022.9981374",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Symbol Emergence as Inter-personal Categorization with Head-to-head Latent Word"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kazuma Furukawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2022 IEEE International Conference on Development and Learning (ICDL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/icdl53763.2022.9962227",
+      "url": "https://doi.org/10.1109/icdl53763.2022.9962227",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Dynamics Verification Based on the Metoropolis-hastings Method of Symbol Emergence Experiments in Multiple Humans",
+        "en": "Dynamics Verification Based on the Metoropolis-hastings Method of Symbol Emergence Experiments in Multiple Humans"
+      },
+      "authors": {
+        "ja": "Ryota Okumura, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi",
+        "en": "Ryota Okumura, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "Workshop on Constructive approaches to co-creative communication in Joint Conference on Language Evolution",
+        "en": "Workshop on Constructive approaches to co-creative communication in Joint Conference on Language Evolution"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "Multiagent Inter-GMM: Extension and Verification of the Symbol Emergence Model to More Than Three Agents",
+        "en": "Multiagent Inter-GMM: Extension and Verification of the Symbol Emergence Model to More Than Three Agents"
+      },
+      "authors": {
+        "ja": "Jun Inukai, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi",
+        "en": "Jun Inukai, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "Workshop on Constructive approaches to co-creative communication in Joint Conference on Language Evolution",
+        "en": "Workshop on Constructive approaches to co-creative communication in Joint Conference on Language Evolution"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "",
+      "url": "https://cir.nii.ac.jp/crid/1390855656055928832?lang=ja",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Map completion from partial observation using the global structure of multiple environmental maps"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yuki Katsumata, Akinori Kanechika, Akira Taniguchi, Lotfi El Hafi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 36,
+      "number": "2026-05-05T15:00:00.000Z",
+      "year": 2022,
+      "doi": "10.1080/01691864.2022.2029762",
+      "url": "https://doi.org/10.1080/01691864.2022.2029762",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Multiagent multimodal categorization for symbol emergence: emergent communication via interpersonal cross-modal inference"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Hagiwara, Y., Furukawa, K., Taniguchi, A., Taniguchi, T."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 36,
+      "number": "2026-05-05T15:00:00.000Z",
+      "year": 2022,
+      "doi": "10.1080/01691864.2022.2029721",
+      "url": "https://doi.org/10.1080/01691864.2022.2029721",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Action-Feasibility-Based Pragmatic Understanding of Ambiguous Instructions by Service Robots"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Taichi Naito, Naoya Hirota, Yoshinobu Hagiwara, Naoto Iwahashi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2022 IEEE/SICE International Symposium on System Integration (SII)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/sii52469.2022.9708746",
+      "url": "https://doi.org/10.1109/sii52469.2022.9708746",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Extending HoloGAN by Embedding Image Content into Latent Vectors for Novel View Synthesis"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Jing Wang, Lotfi El Hafi, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2022 IEEE/SICE International Symposium on System Integration (SII)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/sii52469.2022.9708823",
+      "url": "https://doi.org/10.1109/sii52469.2022.9708823",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hierarchical Bayesian model for the transfer of knowledge on spatial concepts based on multimodal information"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Hagiwara, Y., Taguchi, K., Ishibushi, S., Taniguchi, A., Taniguchi, T."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 36,
+      "number": "2026-01-01T15:00:00.000Z",
+      "year": 2022,
+      "doi": "10.1080/01691864.2021.2004224",
+      "url": "https://doi.org/10.1080/01691864.2021.2004224",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "記号創発ロボティクスにおける場所概念の形成と応用—「移動ロボットにおける空間認知と空間的意味理解」特集号",
+        "en": "「 イドウ ロボット ニ オケル クウカン ニンチ ト クウカンテキ イミ リカイ 」 トクシュウゴウ"
+      },
+      "authors": {
+        "ja": "谷口 彰, エル ハフィ ロトフィ, 萩原 良信, 谷口 忠大",
+        "en": ""
+      },
+      "journal": {
+        "ja": "システム・制御・情報 = Systems, control and information : システム制御情報学会誌",
+        "en": ""
+      },
+      "volume": 66,
+      "number": 4,
+      "year": 2022,
+      "doi": "",
+      "url": "http://ci.nii.ac.jp/ncid/AN10062329",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Optical laser microphone for human-robot interaction: speech recognition in extremely noisy service environments"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Takahiro Fukumori, Chengkai Cai, Yutao Zhang, Lotfi El Hafi, Yoshinobu Hagiwara, Takanobu Nishiura, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1080/01691864.2021.2023629",
+      "url": "https://doi.org/10.1080/01691864.2021.2023629",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Surface plasmon resonance sensor using a polarization-maintaining fiber on a hetero-core optical fiber structure with gold thin film"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ai Hosoki, Michiko Nishiyama, Kazuhiro Watanabe, Nozomu Sakurai"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Optics Express"
+      },
+      "volume": 30,
+      "number": 20,
+      "year": 2022,
+      "doi": "10.1364/oe.469165",
+      "url": "https://doi.org/10.1364/oe.469165",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-core structured fiber optic chemical sensor based on surface plasmon resonance using Au/lipid films"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Ai Hosoki, Michiko Nishiyama, Norikazu Kumekawa, Kazuhiro Watanabe, Rui Yatabe, Yusuke Tahara, Takeshi Onodera, Akifumi Sugiyama, Nozomu Sakurai"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Optics Communications"
+      },
+      "volume": 524,
+      "number": "",
+      "year": 2022,
+      "doi": "10.1016/j.optcom.2022.128751",
+      "url": "https://doi.org/10.1016/j.optcom.2022.128751",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "A surface plasmon resonance temperature sensor using TiO<inf>2</inf>nanoparticles on hetero-core fiber optic structure with Au thin film"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Koji Yuhashi, Junichi Ida, Shoichi Kubodera, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Japanese Journal of Applied Physics"
+      },
+      "volume": 61,
+      "number": 5,
+      "year": 2022,
+      "doi": "10.35848/1347-4065/ac5d23",
+      "url": "https://doi.org/10.35848/1347-4065/ac5d23",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-core fiber optic LSPR sensor based on TiO2 and Au island films for refractive index measurement"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Koji Yuhashi, Jun-ichi Ida, Shoichi Kubodera, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Photonic Instrumentation Engineering IX"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1117/12.2609358",
+      "url": "https://doi.org/10.1117/12.2609358",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Evaluation of hetero-core fiber SPR sensor with different ionic liquid gel coatings for CO<inf>2 </inf>detection"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshimi Kosugi, Michiko Nishiyama, Kazuhiro Watanabe, Junichi Ida"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings of SPIE - The International Society for Optical Engineering"
+      },
+      "volume": 12008,
+      "number": "",
+      "year": 2022,
+      "doi": "10.1117/12.2613414",
+      "url": "https://doi.org/10.1117/12.2613414",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Sensitivity Enhancement of a Semicircular Curved Hetero-Core Optical Fiber Accelerometer with Low Cross-Axis Sensitivity"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Miyuki Kadokura, Hiroshi Yamazaki, Tokio Kasai, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "volume": 71,
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/TIM.2021.3132074",
+      "url": "https://doi.org/10.1109/TIM.2021.3132074",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "A surface plasmon resonance temperature sensor using TiO2 nanoparticles on hetero-core fiber optic structure with Au thin film",
+        "en": ""
+      },
+      "authors": {
+        "ja": "Koji Yuhashi, Junichi Ida, Shoichi Kubodera, Lazuhiro Watanabe, Michiko Nishiyama",
+        "en": ""
+      },
+      "journal": {
+        "ja": "Japanese Journal of Applied Physics",
+        "en": ""
+      },
+      "volume": 61,
+      "number": "",
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "major": false
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "VR and GUI based Human-Robot Interaction Behavior Collection for Modeling the Subjective Evaluation of the Interaction Quality"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Kouichi Iwami, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proc. of IEEE/SICE International Symposium on System Integration (SII2022)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "10.1109/SII52469.2022.9708824",
+      "url": "https://doi.org/10.1109/SII52469.2022.9708824",
       "major": false
     }
   ],
