@@ -193,12 +193,17 @@ var GyosekiRenderer = (function () {
    * section: 'publications' | 'fundings' | 'awards'
    * lang: 'ja' | 'en'（既定 'ja'。片方言語しか無いフィールドの選択にのみ使用。
    *       両言語あるフィールドは lc属性付きで両方出力され、表示側のCSSで切り替わる）
+   * maxItems: 先頭からの表示上限件数（省略・0以下なら無制限。データは書き出し時に
+   *       display_order→年降順で整列済みのため、先頭N件＝最新N件になる）
    * 戻り値: HTML文字列（DOM APIを一切使わない純粋関数）
    */
-  function buildSectionHTML(data, section, lang) {
+  function buildSectionHTML(data, section, lang, maxItems) {
     var effLang = lang === 'en' ? 'en' : 'ja';
     var renderItem = RENDERERS[section];
     var items = data && Array.isArray(data[section]) ? data[section] : [];
+    if (typeof maxItems === 'number' && maxItems > 0 && items.length > maxItems) {
+      items = items.slice(0, maxItems);
+    }
 
     if (!renderItem || items.length === 0) {
       return EMPTY_HTML;
@@ -214,7 +219,8 @@ var GyosekiRenderer = (function () {
 
   /**
    * ブラウザ専用処理（fetch / DOM操作）はここに隔離。
-   * options: { url, targets: {publications:'#sel', fundings:'#sel', awards:'#sel'}, lang }
+   * options: { url, targets: {publications:'#sel', fundings:'#sel', awards:'#sel'}, lang, maxItems }
+   * maxItems: 各セクションの表示上限件数（省略なら無制限。トップページの「最新N件」表示用）
    * targets のセレクタはセクション要素（例 '#grants'）でよい。要素内に既存の
    * ul.plist/ul.ggrid/ul.alist/ul.gyoseki-list があればその ul のみ差し替え、
    * セクション見出し等は保持する。要素自体が ul ならその ul を置換する。
@@ -226,6 +232,7 @@ var GyosekiRenderer = (function () {
     var url = options.url;
     var targets = options.targets || {};
     var lang = options.lang;
+    var maxItems = options.maxItems;
 
     if (typeof fetch !== 'function' || typeof document === 'undefined') {
       if (typeof console !== 'undefined' && console.warn) {
@@ -257,7 +264,7 @@ var GyosekiRenderer = (function () {
           if (SECTIONS.indexOf(section) === -1) return;
           var el = document.querySelector(targets[section]);
           if (!el) return;
-          var html = buildSectionHTML(data, section, lang);
+          var html = buildSectionHTML(data, section, lang, maxItems);
           var existingUl = el.querySelector('ul.plist, ul.ggrid, ul.alist, ul.gyoseki-list');
           if (existingUl) {
             existingUl.outerHTML = html;
