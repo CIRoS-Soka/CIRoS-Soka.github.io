@@ -195,5 +195,5 @@
     selectTab(initial, { skipHistory: true });
   })();
 </script>
-<script>addEventListener("load",function(){scrollTo(0,700)})</script></body>
+<script>addEventListener("load",function(){scrollTo(0,700);requestAnimationFrame(function(){requestAnimationFrame(function(){var r=document.querySelector(".tabbar-wrap").getBoundingClientRect();var d=document.createElement("div");d.id="dbg";d.textContent="DBG scrollY="+scrollY+" tabbarTop="+Math.round(r.top);document.body.appendChild(d);document.title="MEASURED";});});})</script></body>
 </html>

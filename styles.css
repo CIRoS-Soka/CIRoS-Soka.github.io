@@ -413,7 +413,8 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
 .gyoseki-empty { font-size: var(--fs-sm); color: var(--ink-soft); padding: 1.2rem .2rem; }
 
 /* -- achievements tabs -- */
-.tabbar-wrap { position: sticky; top: 60px; z-index: 90; background: rgba(247, 246, 242, .92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--hairline); }
+/* navはheader内stickyのためスクロールで画面外に出る。top:60pxだと上に60pxの透け隙間が残るのでtop:0で密着させる */
+.tabbar-wrap { position: sticky; top: 0; z-index: 90; background: rgba(247, 246, 242, .92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--hairline); }
 .tabbar { display: flex; gap: .4rem; padding-top: .6rem; padding-bottom: .6rem; }
 .tab-btn {
   position: relative; font-family: var(--mono); font-size: var(--fs-xs); font-weight: 500;
