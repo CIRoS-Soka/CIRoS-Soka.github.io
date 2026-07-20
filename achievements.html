@@ -71,17 +71,32 @@
         <span lc="ja">全業績一覧</span>
         <span lc="en">All Achievements</span>
       </h1>
-      <p class="hero-sub" lc="ja">研究論文・受賞歴・外部資金（過去5年フィルタなし・全承認済み業績）</p>
-      <p class="hero-sub" lc="en">Publications, awards, and external funding — full record (no 5-year filter)</p>
+      <p class="hero-sub" lc="ja">研究論文／発表・受賞歴・外部資金（過去5年フィルタなし・全承認済み業績）</p>
+      <p class="hero-sub" lc="en">Papers &amp; presentations, awards, and external funding — full record (no 5-year filter)</p>
     </div>
   </div>
 </div>
 
+<!-- TABS -->
+<div class="tabbar-wrap">
+  <div class="container tabbar" role="tablist" aria-label="業績カテゴリ">
+    <button type="button" class="tab-btn active" id="tab-btn-publications" role="tab" aria-selected="true" aria-controls="publications-all" onclick="selectTab('publications-all')">
+      <span lc="ja">研究論文／発表</span><span lc="en">Papers &amp; Presentations</span>
+    </button>
+    <button type="button" class="tab-btn" id="tab-btn-awards" role="tab" aria-selected="false" aria-controls="awards-all" onclick="selectTab('awards-all')">
+      <span lc="ja">受賞</span><span lc="en">Awards</span>
+    </button>
+    <button type="button" class="tab-btn" id="tab-btn-grants" role="tab" aria-selected="false" aria-controls="grants-all" onclick="selectTab('grants-all')">
+      <span lc="ja">外部資金獲得</span><span lc="en">External Funding</span>
+    </button>
+  </div>
+</div>
+
 <!-- PUBLICATIONS (ALL) -->
-<section id="publications-all" class="white-section" aria-label="研究論文 全件">
+<section id="publications-all" class="white-section" aria-label="研究論文／発表 全件" role="tabpanel" aria-labelledby="tab-btn-publications">
   <div class="container">
-    <div class="slabel" lc="ja">研究論文</div><div class="slabel" lc="en">Publications</div>
-    <h2 class="stitle" lc="ja">研究論文 全件</h2><h2 class="stitle" lc="en">All Publications</h2>
+    <div class="slabel" lc="ja">研究論文／発表</div><div class="slabel" lc="en">Papers &amp; Presentations</div>
+    <h2 class="stitle" lc="ja">研究論文／発表 全件</h2><h2 class="stitle" lc="en">All Papers &amp; Presentations</h2>
     <div class="sdiv"></div>
     <ul class="plist">
       <li><p class="gyoseki-empty" lc="ja">準備中</p><p class="gyoseki-empty" lc="en">Coming soon</p></li>
@@ -90,7 +105,7 @@
 </section>
 
 <!-- AWARDS (ALL) -->
-<section id="awards-all" aria-label="受賞・表彰 全件">
+<section id="awards-all" aria-label="受賞・表彰 全件" role="tabpanel" aria-labelledby="tab-btn-awards" style="display:none;">
   <div class="container">
     <div class="slabel" lc="ja">受賞・表彰</div><div class="slabel" lc="en">Awards &amp; Recognition</div>
     <h2 class="stitle" lc="ja">受賞・表彰 全件</h2><h2 class="stitle" lc="en">All Awards</h2>
@@ -102,7 +117,7 @@
 </section>
 
 <!-- GRANTS (ALL) -->
-<section id="grants-all" class="white-section" aria-label="外部資金 全件">
+<section id="grants-all" class="white-section" aria-label="外部資金 全件" role="tabpanel" aria-labelledby="tab-btn-grants" style="display:none;">
   <div class="container">
     <div class="slabel" lc="ja">外部資金</div><div class="slabel" lc="en">External Funding</div>
     <h2 class="stitle" lc="ja">外部資金 全件</h2><h2 class="stitle" lc="en">All External Funding</h2>
@@ -152,6 +167,33 @@
       b.classList.toggle('active', b.textContent.trim() === (lang === 'ja' ? '日本語' : 'English'));
     });
   }
+
+  var TAB_IDS = ['publications-all', 'awards-all', 'grants-all'];
+
+  function selectTab(id, opts) {
+    opts = opts || {};
+    TAB_IDS.forEach(function (sectionId) {
+      var section = document.getElementById(sectionId);
+      var btn = document.getElementById('tab-btn-' + sectionId.replace('-all', ''));
+      var active = sectionId === id;
+      if (section) {
+        section.style.display = active ? '' : 'none';
+      }
+      if (btn) {
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      }
+    });
+    if (!opts.skipHistory && typeof history !== 'undefined' && history.replaceState) {
+      history.replaceState(null, '', '#' + id);
+    }
+  }
+
+  (function initTabFromHash() {
+    var hash = (location.hash || '').replace('#', '');
+    var initial = TAB_IDS.indexOf(hash) !== -1 ? hash : 'publications-all';
+    selectTab(initial, { skipHistory: true });
+  })();
 </script>
 </body>
 </html>
