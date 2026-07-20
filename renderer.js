@@ -43,7 +43,11 @@ var GyosekiRenderer = (function () {
     { ja: '伊与田健敏', family: 'Iyota',    given: 'Taketoshi' },
     { ja: '萩原良信',   family: 'Hagiwara', given: 'Yoshinobu' },
     { ja: '宍戸英彦',   family: 'Shishido', given: 'Hidehiko' },
-    { ja: '鈴木彰真',   family: 'Suzuki',   given: 'Akimasa' }
+    { ja: '鈴木彰真',   family: 'Suzuki',   given: 'Akimasa' },
+    // 概要図に構成員として載る連携機関の研究者（2026-07-20 ユーザー指示により追加）
+    { ja: '水地良明',   family: 'Mizuchi',  given: 'Yoshiaki' },
+    { ja: '西山道子',   family: 'Nishiyama', given: 'Michiko' },
+    { ja: '山崎大志',   family: 'Yamazaki', given: 'Hiroshi' }
   ];
 
   function escapeRegExp(s) {
