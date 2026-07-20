@@ -405,3 +405,9 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
     transform: none;
   }
 }
+
+/* achievements page */
+.all-link { margin-top: 1.4rem; }
+.all-link a { font-family: var(--mono); font-size: var(--fs-xs); font-weight: 500; color: var(--accent); text-decoration: none; transition: color var(--dur-fast) var(--ease); }
+.all-link a:hover { color: var(--accent2); }
+.gyoseki-empty { font-size: var(--fs-sm); color: var(--ink-soft); padding: 1.2rem .2rem; }
