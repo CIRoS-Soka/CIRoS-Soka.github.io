@@ -25,6 +25,12 @@ var GyosekiRenderer = (function () {
   var UL_CLASS = { publications: 'plist', fundings: 'ggrid', awards: 'alist' };
   var EMPTY_HTML = '<p class="gyoseki-empty">(準備中 / Coming soon)</p>';
   var MAJOR_STAR = '<span class="gyoseki-major-star" aria-hidden="true">★</span> ';
+  // ★の意味を示す凡例。★付きが1件以上あるときだけ publications セクションに添える
+  var MAJOR_LEGEND =
+    '<p class="gyoseki-legend">' +
+    '<span class="gyoseki-major-star" aria-hidden="true">★</span>' +
+    '<span lc="ja">主要業績</span><span lc="en">Selected key publication</span>' +
+    '</p>';
 
   // --- XSS対策: &<>"' を実体参照へ（§7 XSSエスケープ必須） ---
   function esc(value) {
@@ -213,8 +219,14 @@ var GyosekiRenderer = (function () {
       return renderItem(item, effLang);
     });
 
-    return '<ul class="' + UL_CLASS[section] + ' gyoseki-list gyoseki-' + section + '">\n' +
+    var listHtml = '<ul class="' + UL_CLASS[section] + ' gyoseki-list gyoseki-' + section + '">\n' +
       rows.join('\n') + '\n</ul>';
+
+    // 表示された論文に★付きが含まれるときだけ凡例を出す（★が無いのに凡例だけ残るのを防ぐ）
+    if (section === 'publications' && items.some(function (it) { return it && it.major === true; })) {
+      return listHtml + '\n' + MAJOR_LEGEND;
+    }
+    return listHtml;
   }
 
   /**
@@ -267,6 +279,9 @@ var GyosekiRenderer = (function () {
           var html = buildSectionHTML(data, section, lang, maxItems);
           var existingUl = el.querySelector('ul.plist, ul.ggrid, ul.alist, ul.gyoseki-list');
           if (existingUl) {
+            // 前回描画の凡例を先に除く（言語切替などの再描画で凡例が積み重なるのを防ぐ）
+            var oldLegend = el.querySelector('.gyoseki-legend');
+            if (oldLegend) oldLegend.remove();
             existingUl.outerHTML = html;
           } else if (el.tagName === 'UL') {
             el.outerHTML = html;

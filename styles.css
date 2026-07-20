@@ -412,6 +412,11 @@ body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:
 .all-link a { font-family: var(--mono); font-size: var(--fs-xs); font-weight: 500; color: var(--accent); text-decoration: none; transition: color var(--dur-fast) var(--ease); }
 .all-link a:hover { color: var(--accent2); }
 .gyoseki-empty { font-size: var(--fs-sm); color: var(--ink-soft); padding: 1.2rem .2rem; }
+.gyoseki-major-star { color: var(--accent2); }
+.gyoseki-legend { display: flex; align-items: center; gap: .4rem; margin-top: 1rem; font-size: var(--fs-2xs); font-family: var(--mono); letter-spacing: .06em; color: var(--ink-soft); }
+html .gyoseki-legend [lc="en"] { display: none; }
+body.en .gyoseki-legend [lc="ja"] { display: none; }
+body.en .gyoseki-legend [lc="en"] { display: inline; }
 
 /* -- achievements tabs -- */
 /* navはheader内stickyのためスクロールで画面外に出る。top:60pxだと上に60pxの透け隙間が残るのでtop:0で密着させる */
