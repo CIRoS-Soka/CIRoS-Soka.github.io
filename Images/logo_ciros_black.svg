@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CIRoS">
-  <title>CIRoS</title>
-  <rect x="8" y="8" width="496" height="496" rx="126" fill="#013282"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect x="8" y="8" width="496" height="496" rx="126" fill="#0a0a0a"/>
   <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
     <!-- house: left wall + roof (right roof runs above robot head, tapering into wave zone) -->
     <path d="M 102 380 L 102 212 L 248 90 L 384 203" stroke-width="24"/>
