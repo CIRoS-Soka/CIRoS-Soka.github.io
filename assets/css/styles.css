@@ -230,6 +230,8 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
   mask-image: linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
   -webkit-mask-composite: source-in; mask-composite: intersect;
   filter: drop-shadow(0 16px 34px rgba(0, 0, 0, .22)); }
+/* h1タイトル文字の代替: 透過ロックアップロゴ */
+.hero-lockup-img { display: block; width: min(460px, 100%); height: auto; filter: drop-shadow(0 4px 12px rgba(2, 12, 46, .4)); }
 
 /* -- section heading kit -- */
 .slabel { font-family: var(--mono); font-size: var(--fs-2xs); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: .6rem; }
