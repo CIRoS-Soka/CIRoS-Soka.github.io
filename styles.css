@@ -311,6 +311,14 @@ body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:
 .ay { font-family: var(--mono); font-size: var(--fs-xs); font-weight: 500; color: var(--accent2); min-width: 3rem; padding-top: .1rem; }
 .at { font-size: var(--fs-md); line-height: 1.7; }
 
+/* -- news ページ（news.html） -- */
+.ni .ay { min-width: 6.4rem; } /* YYYY.MM.DD の幅 */
+.ni-t { font-size: var(--fs-lg); font-weight: 600; line-height: 1.5; margin-bottom: .3rem; }
+.ni-b { font-size: var(--fs-md); color: var(--ink-soft); line-height: 1.85; margin-bottom: .45rem; max-width: 46rem; }
+.ni-link { display: inline-block; font-size: var(--fs-xs); font-weight: 600; color: var(--accent); text-decoration: none; }
+.ni-link:hover { text-decoration: underline; }
+body.en .ni-link [lc="en"] { display: inline; } /* リンク内spanのblock化による改行を防ぐ */
+
 /* -- grants -- */
 .ggrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .gi { background: var(--surface); border: 1px solid var(--hairline); border-radius: 6px; padding: 1.2rem 1.4rem; transition: transform var(--dur-med) var(--ease), border-color var(--dur-med) var(--ease), box-shadow var(--dur-med) var(--ease); }
