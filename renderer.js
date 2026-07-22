@@ -186,11 +186,12 @@ var GyosekiRenderer = (function () {
     }, lang);
 
     var gmHtml = bilingual('div', 'gm', function (lc) {
-      // 提供機関・制度・研究代表者は片言語欠落時に他言語へフォールバック（§7 lang表示規則）
+      // 提供機関・制度・種目・研究代表者は片言語欠落時に他言語へフォールバック（§7 lang表示規則）
       var funder = pickLang(item.funder, lc).trim();
       var system = pickLang(item.system, lc).trim();
+      var category = pickLang(item.category, lc).trim(); // 種目（例: 基盤研究(C)）
       var pi = pickLang(item.principal_investigator, lc).trim();
-      var left = [funder, system].filter(Boolean).map(esc).join(' ');
+      var left = [funder, system, category].filter(Boolean).map(esc).join(' ');
       var right = '';
       if (pi) {
         if (lc === 'ja') {
@@ -205,20 +206,47 @@ var GyosekiRenderer = (function () {
       return left + (left && right ? sep : '') + right;
     }, lang);
 
-    // .ga は既存HPでも単一表記（lcなし）。badge優先、無ければ (年)
+    // 詳細行（.gd）: 期間・課題番号・実施機関・研究者全員（researchmap一覧相当の情報量）
+    var periodFrom = toStr(item.period && item.period.from).slice(0, 7);
+    var periodTo = toStr(item.period && item.period.to).slice(0, 7);
+    var grantNumber = toStr(item.grant_number).trim();
+    var gdHtml = bilingual('div', 'gd', function (lc) {
+      var bits = [];
+      if (periodFrom) bits.push(esc(periodFrom) + (lc === 'ja' ? '〜' : ' – ') + esc(periodTo));
+      if (grantNumber) bits.push((lc === 'ja' ? '課題番号 ' : 'Grant No. ') + esc(grantNumber));
+      var inst = pickLang(item.institution, lc).trim();
+      if (inst) bits.push(esc(inst));
+      // 研究者全員（PI単独と同じ内容なら重複表示しない）
+      var inv = pickLang(item.investigators, lc).trim();
+      var pi = pickLang(item.principal_investigator, lc).trim();
+      if (inv && inv !== pi) bits.push((lc === 'ja' ? '研究者: ' : 'Investigators: ') + esc(inv));
+      return bits.join(lc === 'ja' ? ' ／ ' : ' / ');
+    }, lang);
+
+    // .ga は既存HPでも単一表記（lcなし）。badge優先、無ければ種目、それも無ければ (年)
     var badge = toStr(item.badge).trim();
-    var gaText = badge || (year ? '(' + year + ')' : '');
+    var categoryJa = item.category ? (toStr(item.category.ja).trim() || toStr(item.category.en).trim()) : '';
+    var gaText = badge || categoryJa || (year ? '(' + year + ')' : '');
     var gaHtml = gaText ? '<div class="ga">' + esc(gaText) + '</div>' : '';
 
-    return '<li><article class="gi gyoseki-item gyoseki-funding">' + gnHtml + gmHtml + gaHtml + '</article></li>';
+    return '<li><article class="gi gyoseki-item gyoseki-funding">' + gnHtml + gmHtml + gdHtml + gaHtml + '</article></li>';
   }
 
-  // --- awards: 年(.ay)＋「賞名 ／ 対象業績（受賞者）」(.at。enは「— 対象 (受賞者)」) ---
+  // 賞種別の表示名（researchmap実データに現れる値のみ。未知の値は表示しない）
+  var AWARD_TYPE_LABEL = {
+    international_society: { ja: '国際学会', en: 'International' },
+    japan_society: { ja: '国内学会', en: 'Domestic' }
+  };
+
+  // --- awards: 年月(.ay)＋「賞名 ／ 対象業績（受賞者）」(.at)＋授与機関・種別(.am) ---
   function renderAward(item, lang) {
     item = item || {};
     var year = item.year !== null && item.year !== undefined ? toStr(item.year) : '';
-    var ayHtml = year
-      ? '<time class="ay" datetime="' + esc(year) + '">' + esc(year) + '</time>'
+    // date（"2024-09"等）があれば年月まで表示。無ければ従来どおり年のみ（手動行の後方互換）
+    var date = toStr(item.date).slice(0, 7); // "YYYY-MM"
+    var ayLabel = date ? date.replace('-', '.') : year;
+    var ayHtml = ayLabel
+      ? '<time class="ay" datetime="' + esc(date || year) + '">' + esc(ayLabel) + '</time>'
       : '';
 
     var atHtml = bilingual('span', 'at', function (lc) {
@@ -232,7 +260,18 @@ var GyosekiRenderer = (function () {
       return inner;
     }, lang);
 
-    return '<li><article class="ai gyoseki-item gyoseki-award">' + ayHtml + atHtml + '</article></li>';
+    // 授与機関＋賞種別。機関名は片言語欠落が多いためフォールバックする
+    var typeLabel = AWARD_TYPE_LABEL[item.award_type] || null;
+    var amHtml = bilingual('div', 'am', function (lc) {
+      var org = pickLang(item.organization, lc).trim();
+      var bits = [];
+      if (org) bits.push(esc(org));
+      if (typeLabel) bits.push(esc(typeLabel[lc]));
+      return bits.join(lc === 'ja' ? ' ／ ' : ' / ');
+    }, lang);
+
+    return '<li><article class="ai gyoseki-item gyoseki-award">' + ayHtml +
+      '<div class="ai-body">' + atHtml + amHtml + '</div></article></li>';
   }
 
   var RENDERERS = {
