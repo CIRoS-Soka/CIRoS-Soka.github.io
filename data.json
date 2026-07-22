@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T06:59:23.692Z",
+    "generated_at": "2026-07-22T07:16:09.046Z",
     "schema_version": "1.0",
     "scope": "recent"
   },
@@ -187,6 +187,46 @@
     },
     {
       "title": {
+        "ja": "マルチモーダル大規模言語モデルによる複数ロボットの知識統合とタスク割当を用いた現場学習のコスト削減",
+        "en": "Reducing Cost of On-site Learning by Multi-robot Knowledge Integration and Task Allocation via Large Language Models"
+      },
+      "authors": {
+        "ja": "長谷川翔一, 村田健人, 石川朋親, 萩原良信, 谷口彰, エルハフィロトフィ, ガルシアグスタボ, 谷口忠大",
+        "en": "Shoichi Hasegawa, Kento Murata, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Gustavo Garcia, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "日本ロボット学会誌",
+        "en": "Journal of the Robotics Society of Japan"
+      },
+      "volume": 43,
+      "number": 7,
+      "year": 2025,
+      "doi": "10.7210/jrsj.43.703",
+      "url": "https://doi.org/10.7210/jrsj.43.703",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Take That for Me: Multimodal Exophora Resolution with Interactive Questioning for Ambiguous Out-of-View Instructions"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/ro-man63969.2025.11217563",
+      "url": "https://doi.org/10.1109/ro-man63969.2025.11217563",
+      "major": true
+    },
+    {
+      "title": {
         "ja": "Characteristics of split-step skills of the world’s top athletes in badminton",
         "en": "Characteristics of split-step skills of the world’s top athletes in badminton"
       },
@@ -208,6 +248,46 @@
     {
       "title": {
         "ja": "",
+        "en": "ECRAP: Exophora Resolution and Classifying User Commands for Robot Action Planning by Large Language Models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings - 2024 8th IEEE International Conference on Robotic Computing, IRC 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/IRC63610.2024.00007",
+      "url": "https://doi.org/10.1109/IRC63610.2024.00007",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots.",
+        "en": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots."
+      },
+      "authors": {
+        "ja": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi",
+        "en": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+        "en": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SMC54092.2024.10831649",
+      "url": "https://doi.org/10.1109/SMC54092.2024.10831649",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
         "en": "Hetero-Core Fiber Optic Glucose Sensor Coated with Glucose Oxidase Immobilized in pH-Sensitive Polymer Multilayer of Poly-L-Lysine and Poly Acrylic Acid."
       },
       "authors": {
@@ -223,6 +303,66 @@
       "year": 2024,
       "doi": "10.1109/SENSORS60989.2024.10784794",
       "url": "https://doi.org/10.1109/SENSORS60989.2024.10784794",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Integrating probabilistic logic and multimodal spatial concepts for efficient robotic object search in home environments"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "SICE Journal of Control, Measurement, and System Integration"
+      },
+      "volume": 16,
+      "number": 1,
+      "year": 2023,
+      "doi": "10.1080/18824889.2023.2283954",
+      "url": "https://doi.org/10.1080/18824889.2023.2283954",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Active Semantic Mapping for Household Robots: Rapid Indoor Adaptation and Reduced User Burden"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/smc53992.2023.10394143",
+      "url": "https://doi.org/10.1109/smc53992.2023.10394143",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Inferring Place-Object Relationships by Integrating Probabilistic Logic and Multimodal Spatial Concepts"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE/SICE International Symposium on System Integration, SII 2023"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/SII55687.2023.10039318",
+      "url": "https://doi.org/10.1109/SII55687.2023.10039318",
       "major": true
     },
     {
@@ -635,25 +775,6 @@
     },
     {
       "title": {
-        "ja": "1位",
-        "en": ""
-      },
-      "target": {
-        "ja": "@Space Challenge",
-        "en": ""
-      },
-      "organization": {
-        "ja": "RoboCup日本委員会",
-        "en": ""
-      },
-      "year": 2026,
-      "recipients": {
-        "ja": "SOBITS",
-        "en": ""
-      }
-    },
-    {
-      "title": {
         "ja": "日本ロボット学会賞",
         "en": ""
       },
@@ -821,25 +942,6 @@
       "recipients": {
         "ja": "水地 良明, 山田 裕基, 稲邑 哲也",
         "en": ""
-      }
-    },
-    {
-      "title": {
-        "ja": "日本ロボット学会賞",
-        "en": "Award of The Robotics Society of Japan"
-      },
-      "target": {
-        "ja": "WRS (World Robot Summit)2018@Home League",
-        "en": "WRS (World Robot Summit) 2018@Home League"
-      },
-      "organization": {
-        "ja": "WRS (World Robot Summit) 2018ロボカップ日本実行委員会",
-        "en": "WRS (World Robot Summit) 2018"
-      },
-      "year": 2018,
-      "recipients": {
-        "ja": "Team「SOBITs」",
-        "en": "Team「SOBITs」"
       }
     }
   ]
