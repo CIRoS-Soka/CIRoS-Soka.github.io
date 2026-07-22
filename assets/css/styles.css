@@ -275,6 +275,10 @@ body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:
 
 .lead-av { width: 56px; height: 56px; border-radius: 50%; overflow: hidden; margin-bottom: .7rem; flex-shrink: 0; }
 .lead-av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* センター長・副センター長を横並びに */
+.center-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; margin-bottom: 2.5rem; }
+.center-duo .center-box { margin-bottom: 0; }
+.center-duo .lead-row { flex-direction: column; }
 
 .member-box { background: transparent; border: none; padding: 0; box-shadow: none; }
 .member-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .9rem; margin-top: 1rem; }
@@ -359,6 +363,7 @@ body.en .ni-link [lc="en"] { display: inline; } /* リンク内spanのblock化�
   .hero-top { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
   .member-row { grid-template-columns: repeat(2, 1fr); }
+  .center-duo { grid-template-columns: 1fr; gap: 2.2rem; }
   .rgrid { grid-template-columns: 1fr 1fr; }
   .ggrid { grid-template-columns: 1fr; }
   .fi { flex-direction: column; }
