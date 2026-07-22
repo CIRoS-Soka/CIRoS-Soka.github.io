@@ -230,8 +230,16 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
   mask-image: linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%), linear-gradient(to bottom, transparent 0, #000 5%, #000 95%, transparent 100%);
   -webkit-mask-composite: source-in; mask-composite: intersect;
   filter: drop-shadow(0 16px 34px rgba(0, 0, 0, .22)); }
-/* h1タイトル文字の代替: 透過ロックアップロゴ */
-.hero-lockup-img { display: block; width: min(460px, 100%); height: auto; filter: drop-shadow(0 4px 12px rgba(2, 12, 46, .4)); }
+/* h1タイトル文字の代替: 透過ロックアップロゴ（ロボットが人へ移動しカップを置くアニメ付き） */
+.hero-lockup-anim { position: relative; display: block; width: min(460px, 100%); filter: drop-shadow(0 4px 12px rgba(2, 12, 46, .4)); }
+.hero-lockup-anim .hl-base { display: block; width: 100%; height: auto; }
+.hero-lockup-anim .hl-part { position: absolute; height: auto; }
+.hl-robot { left: 17.35%; top: 32.82%; width: 15.98%; animation: hl-robot-in 1s ease-out .5s both; }
+.hl-cup { left: 17.29%; top: 49.71%; width: 4.51%; animation: hl-cup-drop .45s cubic-bezier(.34, 1.56, .64, 1) 1.7s both; }
+.hl-waves { left: 29.51%; top: 30.68%; width: 5.02%; animation: hl-waves-in .8s ease 2.25s both; }
+@keyframes hl-robot-in { from { transform: translateX(11%); } to { transform: translateX(0); } }
+@keyframes hl-cup-drop { from { opacity: 0; transform: translateY(-30%); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hl-waves-in { from { opacity: 0; } to { opacity: 1; } }
 
 /* -- section heading kit -- */
 .slabel { font-family: var(--mono); font-size: var(--fs-2xs); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: .6rem; }
@@ -248,7 +256,8 @@ h1.hero-title .dim + br { display: none; } /* .dim の block 化で直後の br 
 .feat::before { content: ''; position: absolute; left: -1px; top: 12%; bottom: 12%; width: 2px; background: var(--accent2); transform: scaleY(0); transform-origin: top; transition: transform var(--dur-med) var(--ease); }
 .feat:hover { border-color: var(--hairline-strong); transform: translateY(-2px); box-shadow: var(--shadow-hover); }
 .feat:hover::before { transform: scaleY(1); }
-.feat-ic { width: 36px; height: 36px; border-radius: 6px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.feat-ic { width: 36px; height: 36px; border-radius: 6px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent); }
+.feat-ic svg { display: block; }
 .feat-t { font-size: var(--fs-lg); font-weight: 600; margin-bottom: .25rem; }
 .feat-b { font-size: var(--fs-sm); color: var(--ink-soft); line-height: 1.7; }
 
