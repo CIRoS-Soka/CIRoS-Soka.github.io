@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T10:44:44.701Z",
+    "generated_at": "2026-07-22T06:54:33.016Z",
     "schema_version": "1.0",
     "scope": "all"
   },
@@ -43,6 +43,26 @@
       "year": 2026,
       "doi": "",
       "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Designing Interaction Preferences for Augmenting Collaborative Capabilities in Daily Tasks"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Taisuke Kobayashi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings of the Augmented Humans International Conference 2026"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "10.1145/3795011.3797390",
+      "url": "https://doi.org/10.1145/3795011.3797390",
       "major": true
     },
     {
@@ -103,6 +123,66 @@
       "year": 2025,
       "doi": "",
       "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502288646732352",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Small Obstacle-Aware Person-Following for Mobile Robots Using Vision-Based Segmentation"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/gcce65946.2025.11275154",
+      "url": "https://doi.org/10.1109/gcce65946.2025.11275154",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Spatial Concepts-based Prompts with Large Language Models for Robot Action Planning"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Access"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/access.2025.3647727",
+      "url": "https://doi.org/10.1109/access.2025.3647727",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "“SOBIT LIGHT: An Accessible Open MoMa for data collection",
+        "en": "“SOBIT LIGHT: An Accessible Open MoMa for data collection"
+      },
+      "authors": {
+        "ja": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi",
+        "en": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)",
+        "en": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "",
+      "url": "",
       "major": true
     },
     {
