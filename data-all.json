@@ -1,0 +1,948 @@
+{
+  "meta": {
+    "generated_at": "2026-07-22T07:16:09.046Z",
+    "schema_version": "1.0",
+    "scope": "all"
+  },
+  "publications": [
+    {
+      "title": {
+        "ja": "",
+        "en": "Multi-robot task planning for multi-object retrieval tasks with distributed on-site knowledge via large language models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Kento Murata, Shoichi Hasegawa, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Artificial Life and Robotics"
+      },
+      "volume": 31,
+      "number": 2,
+      "year": 2026,
+      "doi": "10.1007/s10015-026-01123-8",
+      "url": "https://doi.org/10.1007/s10015-026-01123-8",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Toward Ownership Understanding of Objects: Active Question Generation with Large Language Model and Probabilistic Generative Model",
+        "en": "Toward Ownership Understanding of Objects: Active Question Generation with Large Language Model and Probabilistic Generative Model"
+      },
+      "authors": {
+        "ja": "Saki Hashimoto, Shoichi Hasegawa, Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi",
+        "en": "Saki Hashimoto, Shoichi Hasegawa, Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "31st International Symposium on Artificial Life and Robotics and 11th International Symposium on BioComplexity (AROB-ISBC)",
+        "en": ""
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "",
+      "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Designing Interaction Preferences for Augmenting Collaborative Capabilities in Daily Tasks"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Yoshiaki Mizuchi, Taisuke Kobayashi, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings of the Augmented Humans International Conference 2026"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "10.1145/3795011.3797390",
+      "url": "https://doi.org/10.1145/3795011.3797390",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Development of a Simulation System for 1500 m Race Performance Analysis Using WaveLight",
+        "en": "Development of a Simulation System for 1500 m Race Performance Analysis Using WaveLight"
+      },
+      "authors": {
+        "ja": "Kenzaburo Yamazaki, Hidehiko Shishido",
+        "en": "Kenzaburo Yamazaki, Hidehiko Shishido"
+      },
+      "journal": {
+        "ja": "Proceedings of the 8th International Conference on Control and Computer Vision (ICCCV 2026)",
+        "en": "Proceedings of the 8th International Conference on Control and Computer Vision (ICCCV 2026)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2026,
+      "doi": "",
+      "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Indicator analysis of the footwork in the world's top badminton athletes based on markerless motion measurement",
+        "en": "Indicator analysis of the footwork in the world's top badminton athletes based on markerless motion measurement"
+      },
+      "authors": {
+        "ja": "Hidehiko Shishido, Takeshi Nishijima",
+        "en": "Hidehiko Shishido, Takeshi Nishijima"
+      },
+      "journal": {
+        "ja": "Frontiers in Sports and Active Living",
+        "en": "Frontiers in Sports and Active Living"
+      },
+      "volume": 8,
+      "number": "",
+      "year": 2026,
+      "doi": "",
+      "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "暗渠内におけるモルタル搬送のためのLiDARを用いた自律移動ロボットの検証",
+        "en": "Experiment of Autonomous Mobile Robot for Mortar Transport in Culverts"
+      },
+      "authors": {
+        "ja": "田尻隼人, 鈴木彰真",
+        "en": "田尻隼人, 鈴木彰真"
+      },
+      "journal": {
+        "ja": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)",
+        "en": "情報処理学会論文誌トランザクション コンシューマ・デバイス&システム(Web)"
+      },
+      "volume": 15,
+      "number": 2,
+      "year": 2025,
+      "doi": "",
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502288646732352",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Small Obstacle-Aware Person-Following for Mobile Robots Using Vision-Based Segmentation"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/gcce65946.2025.11275154",
+      "url": "https://doi.org/10.1109/gcce65946.2025.11275154",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Spatial Concepts-based Prompts with Large Language Models for Robot Action Planning"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE Access"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/access.2025.3647727",
+      "url": "https://doi.org/10.1109/access.2025.3647727",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "“SOBIT LIGHT: An Accessible Open MoMa for data collection",
+        "en": "“SOBIT LIGHT: An Accessible Open MoMa for data collection"
+      },
+      "authors": {
+        "ja": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi",
+        "en": "Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi"
+      },
+      "journal": {
+        "ja": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)",
+        "en": "Workshop on Open Hardware in 2025 Conference on Robot Learning (CoRL)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "マルチモーダル大規模言語モデルによる複数ロボットの知識統合とタスク割当を用いた現場学習のコスト削減",
+        "en": "Reducing Cost of On-site Learning by Multi-robot Knowledge Integration and Task Allocation via Large Language Models"
+      },
+      "authors": {
+        "ja": "長谷川翔一, 村田健人, 石川朋親, 萩原良信, 谷口彰, エルハフィロトフィ, ガルシアグスタボ, 谷口忠大",
+        "en": "Shoichi Hasegawa, Kento Murata, Tomochika Ishikawa, Yoshinobu Hagiwara, Akira Taniguchi, Lotfi El Hafi, Gustavo Garcia, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "日本ロボット学会誌",
+        "en": "Journal of the Robotics Society of Japan"
+      },
+      "volume": 43,
+      "number": 7,
+      "year": 2025,
+      "doi": "10.7210/jrsj.43.703",
+      "url": "https://doi.org/10.7210/jrsj.43.703",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Take That for Me: Multimodal Exophora Resolution with Interactive Questioning for Ambiguous Out-of-View Instructions"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2025,
+      "doi": "10.1109/ro-man63969.2025.11217563",
+      "url": "https://doi.org/10.1109/ro-man63969.2025.11217563",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Characteristics of split-step skills of the world’s top athletes in badminton",
+        "en": "Characteristics of split-step skills of the world’s top athletes in badminton"
+      },
+      "authors": {
+        "ja": "Hidehiko Shishido, Takeshi Nishijima",
+        "en": "Hidehiko Shishido, Takeshi Nishijima"
+      },
+      "journal": {
+        "ja": "PLOS ONE",
+        "en": "PLOS ONE"
+      },
+      "volume": 20,
+      "number": 1,
+      "year": 2025,
+      "doi": "10.1371/journal.pone.0316632",
+      "url": "https://doi.org/10.1371/journal.pone.0316632",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "ECRAP: Exophora Resolution and Classifying User Commands for Robot Action Planning by Large Language Models"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Akira Oyama, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "Proceedings - 2024 8th IEEE International Conference on Robotic Computing, IRC 2024"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/IRC63610.2024.00007",
+      "url": "https://doi.org/10.1109/IRC63610.2024.00007",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots.",
+        "en": "Pointing Frame Estimation With Audio-Visual Time Series Data for Daily Life Service Robots."
+      },
+      "authors": {
+        "ja": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi",
+        "en": "Hikaru Nakagawa, Shoichi Hasegawa, Yoshinobu Hagiwara, Akira Taniguchi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+        "en": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SMC54092.2024.10831649",
+      "url": "https://doi.org/10.1109/SMC54092.2024.10831649",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Hetero-Core Fiber Optic Glucose Sensor Coated with Glucose Oxidase Immobilized in pH-Sensitive Polymer Multilayer of Poly-L-Lysine and Poly Acrylic Acid."
+      },
+      "authors": {
+        "ja": "",
+        "en": "Deepro Banerjee, Kazuhiro Watanabe, Michiko Nishiyama"
+      },
+      "journal": {
+        "ja": "",
+        "en": "IEEE SENSORS"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2024,
+      "doi": "10.1109/SENSORS60989.2024.10784794",
+      "url": "https://doi.org/10.1109/SENSORS60989.2024.10784794",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Integrating probabilistic logic and multimodal spatial concepts for efficient robotic object search in home environments"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "SICE Journal of Control, Measurement, and System Integration"
+      },
+      "volume": 16,
+      "number": 1,
+      "year": 2023,
+      "doi": "10.1080/18824889.2023.2283954",
+      "url": "https://doi.org/10.1080/18824889.2023.2283954",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Active Semantic Mapping for Household Robots: Rapid Indoor Adaptation and Reduced User Burden"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Tomochika Ishikawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/smc53992.2023.10394143",
+      "url": "https://doi.org/10.1109/smc53992.2023.10394143",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Inferring Place-Object Relationships by Integrating Probabilistic Logic and Multimodal Spatial Concepts"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Lotfi El Hafi, Tadahiro Taniguchi"
+      },
+      "journal": {
+        "ja": "",
+        "en": "2023 IEEE/SICE International Symposium on System Integration, SII 2023"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2023,
+      "doi": "10.1109/SII55687.2023.10039318",
+      "url": "https://doi.org/10.1109/SII55687.2023.10039318",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Evaluation of an Online Human-Robot Interaction Competition Platform based on Virtual Reality – Case Study in RCAP2021",
+        "en": "Evaluation of an Online Human-Robot Interaction Competition Platform based on Virtual Reality – Case Study in RCAP2021"
+      },
+      "authors": {
+        "ja": "Yoshiaki Mizuchi, Hiroki Yamada, Tetsunari Inamura",
+        "en": "Yoshiaki Mizuchi, Hiroki Yamada, Tetsunari Inamura"
+      },
+      "journal": {
+        "ja": "Advanced Robotics",
+        "en": "Advanced Robotics"
+      },
+      "volume": 37,
+      "number": 8,
+      "year": 2023,
+      "doi": "10.1080/01691864.2022.2145235",
+      "url": "https://doi.org/10.1080/01691864.2022.2145235",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Development of a Portable Interface System Sharing the Positioning and Heading Information to Support a Berthing Vessel",
+        "en": "Development of a Portable Interface System Sharing the Positioning and Heading Information to Support a Berthing Vessel"
+      },
+      "authors": {
+        "ja": "K. Ito, T. Tsuyuzaki, D. Yuasa, Y. Choi, Y. Kim",
+        "en": "K. Ito, T. Tsuyuzaki, D. Yuasa, Y. Choi, Y. Kim"
+      },
+      "journal": {
+        "ja": "Journal of Marine Science and Engineering",
+        "en": "Journal of Marine Science and Engineering"
+      },
+      "volume": 10,
+      "number": 11,
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "",
+        "en": "Multiagent multimodal categorization for symbol emergence: emergent communication via interpersonal cross-modal inference"
+      },
+      "authors": {
+        "ja": "",
+        "en": "Hagiwara, Y., Furukawa, K., Taniguchi, A., Taniguchi, T."
+      },
+      "journal": {
+        "ja": "",
+        "en": "Advanced Robotics"
+      },
+      "volume": 36,
+      "number": "2026-05-05T15:00:00.000Z",
+      "year": 2022,
+      "doi": "10.1080/01691864.2022.2029721",
+      "url": "https://doi.org/10.1080/01691864.2022.2029721",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "Neural Density-Distance Fields",
+        "en": "Neural Density-Distance Fields"
+      },
+      "authors": {
+        "ja": "Itsuki Ueda, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shishido, Itaru Kitahara",
+        "en": "Itsuki Ueda, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shishido, Itaru Kitahara"
+      },
+      "journal": {
+        "ja": "European Conference on Computer Vision(ECCV 2022)",
+        "en": "European Conference on Computer Vision(ECCV 2022)"
+      },
+      "volume": "",
+      "number": "",
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "major": true
+    }
+  ],
+  "fundings": [
+    {
+      "title": {
+        "ja": "VLAモデルとセマンティックマップを活用した大規模言語モデルによる生活支援ロボットの汎用タスク実行",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2026,
+      "period": {
+        "from": "2026-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "確率的知識を用いた曖昧発話からのロボット行動生成基盤の創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2028-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "大規模言語モデルを活用した異種ロボットの逐次的なタスク割当と行動計画",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-04",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "磁性流体を用いた表面プラズモン共鳴に基づくヘテロコア光ファイバ磁場センサの研究開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "精密測定技術振興のための調査・研究事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "公益財団法人精密測定技術振興財団",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-01",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "ロボット基盤モデルによる個性適応型協調インタラクションのための拡張技術の構築",
+        "en": ""
+      },
+      "system": {
+        "ja": "公募型共同研究",
+        "en": ""
+      },
+      "funder": {
+        "ja": "国立情報学研究所",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2025,
+      "period": {
+        "from": "2025-07",
+        "to": "2026-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "基盤モデルと現場学習を統合した言語理解に基づくマルチロボット協調タスク",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "フェムト秒レーザー加工分光セルを用いる生体分子検出システムの開発",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "窪寺 昌一",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-04",
+        "to": "2027-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "対話行動の品質評価におけるユーザの価値観推定手法の確立",
+        "en": ""
+      },
+      "system": {
+        "ja": "公益財団法人栢森情報科学振興財団 助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2024,
+      "period": {
+        "from": "2024-01",
+        "to": "2025-12"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "知識転移技術による複数ロボットにおける新規環境学習の高速化",
+        "en": ""
+      },
+      "system": {
+        "ja": "HSR開発コミュニティ",
+        "en": ""
+      },
+      "funder": {
+        "ja": "ロボカップ日本委員会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2023,
+      "period": {
+        "from": "2023-04",
+        "to": "2024-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "生活支援ロボットの多拠点間マルチモーダル知識転移を実現するシステム基盤創成",
+        "en": ""
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": ""
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": ""
+      },
+      "principal_investigator": {
+        "ja": "萩原 良信",
+        "en": ""
+      },
+      "role": "代表",
+      "badge": "",
+      "year": 2022,
+      "period": {
+        "from": "2022-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    },
+    {
+      "title": {
+        "ja": "低炭素社会に貢献する水素航空機のためのマルチモーダル光ファイバセンサの研究",
+        "en": "Fiber optic multimodal sensors for hydrogen-powered aircraft for a low-carbon society"
+      },
+      "system": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "funder": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "principal_investigator": {
+        "ja": "西山 道子",
+        "en": ""
+      },
+      "role": "",
+      "badge": "",
+      "year": 2022,
+      "period": {
+        "from": "2022-04",
+        "to": "2025-03"
+      },
+      "grant_number": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": {
+        "ja": "Best Poster Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Open Platform，@Home League",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup日本委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "優勝",
+        "en": ""
+      },
+      "target": {
+        "ja": "@Space Challenge Open Category",
+        "en": ""
+      },
+      "organization": {
+        "ja": "RoboCup @Space Challenge 実行委員会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "SOBITS",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "地上生活支援ロボット技術の宇宙転用に向けた自律宇宙ロボット研究の競技的架橋",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "岡田浩之, 池田勇輝, 萩原良信, Amy Eguchi, 稲邑哲也, 大井翔, 大橋健, 西野順二, 野間春生",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "総合的業績評価表彰",
+        "en": ""
+      },
+      "target": {
+        "ja": "",
+        "en": ""
+      },
+      "organization": {
+        "ja": "創価大学",
+        "en": ""
+      },
+      "year": 2026,
+      "recipients": {
+        "ja": "宍戸英彦",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "優秀講演賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボットの曖昧発話理解に向けた物体・場所統合セマンティックマップによる位置推定",
+        "en": ""
+      },
+      "organization": {
+        "ja": "計測自動制御学会システムインテグレーション部門",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "鈴木幸四郎, 萩原良信",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "Advanced Robotics Best Paper Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Active Exploration based on Information Gain by Particle Filter for Efficient Spatial Concept Formation",
+        "en": ""
+      },
+      "organization": {
+        "ja": "The Robotics Society of Japan",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "Akira Taniguchi, Yoshiki Tabuchi, Tomochika Ishikawa, Lotfi El Hafi, Yoshinobu Hagiwara, and Tadahiro Taniguchi",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "日本ロボット学会賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "ロボカップ＠ホーム Kachaka Challenge の創出",
+        "en": ""
+      },
+      "organization": {
+        "ja": "日本ロボット学会",
+        "en": ""
+      },
+      "year": 2025,
+      "recipients": {
+        "ja": "水谷彰伸,Valentin Keith,寺田耕志,萩原良信,岡田浩之",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "Best Oral Presentation Award",
+        "en": ""
+      },
+      "target": {
+        "ja": "Introduction to SOBITS strategy for General Purpose Life-Support Robots",
+        "en": ""
+      },
+      "organization": {
+        "ja": "Malaysia AI Robotics Society",
+        "en": ""
+      },
+      "year": 2024,
+      "recipients": {
+        "ja": "K. Valentin, J. Sim, F. Ono, K. Suzuki, J. Lee, Y. Hagiwara, Y. Choi",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "HSRコミュニティ優秀論文賞",
+        "en": ""
+      },
+      "target": {
+        "ja": "「現場環境で学習した知識に基づく曖昧な発話からの生活物理支援タスク」",
+        "en": ""
+      },
+      "organization": {
+        "ja": "インテリジェントホームロボティクス研究専門委員会（日本ロボット学会）",
+        "en": ""
+      },
+      "year": 2023,
+      "recipients": {
+        "ja": "萩原良信, 長谷川翔一, 大山瑛, 谷口彰, エルハフィロトフィ, 谷口忠大",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "人工知能学会賞",
+        "en": "The Japanese Society for Artificial Intelligence Award"
+      },
+      "target": {
+        "ja": "",
+        "en": ""
+      },
+      "organization": {
+        "ja": "",
+        "en": ""
+      },
+      "year": 2023,
+      "recipients": {
+        "ja": "Home Simulation OPL運営委員",
+        "en": ""
+      }
+    },
+    {
+      "title": {
+        "ja": "SI2020 優秀講演賞",
+        "en": "Outstanding Presentation Award, SICE SI2020"
+      },
+      "target": {
+        "ja": "ロボットとの身体性を伴う対話実験をクラウドソーシング化するVRプラットフォーム－リアルタイムでのクライアント・サーバ通信によるマルチエージェントインタラクション－",
+        "en": ""
+      },
+      "organization": {
+        "ja": "",
+        "en": ""
+      },
+      "year": 2020,
+      "recipients": {
+        "ja": "水地 良明, 山田 裕基, 稲邑 哲也",
+        "en": ""
+      }
+    }
+  ]
+}
