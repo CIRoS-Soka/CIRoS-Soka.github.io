@@ -314,7 +314,8 @@ body.en .partner-tag[lc="en"] { display: flex; } /* body.en [lc=en] の display:
 .am { font-size: var(--fs-xs); color: var(--ink-soft); margin-top: .15rem; } /* 受賞: 授与機関・種別 */
 .gd { font-size: var(--fs-2xs); font-family: var(--mono); letter-spacing: .02em; color: var(--ink-soft); margin-top: .3rem; } /* 資金: 期間・課題番号・機関・研究者 */
 
-/* -- ニュースセクション（index.html #news） -- */
+/* -- ニュース（index.html #news = 最新3件、news.html = 全件一覧） -- */
+#news .alist li:nth-child(n+4) { display: none; } /* トップは最新3件のみ（記事は先頭に追記する運用） */
 .ni .ay { min-width: 6.4rem; } /* YYYY.MM.DD の幅 */
 .ni-t { font-size: var(--fs-lg); font-weight: 600; line-height: 1.5; margin-bottom: .3rem; }
 .ni-b { font-size: var(--fs-md); color: var(--ink-soft); line-height: 1.85; margin-bottom: .45rem; max-width: 46rem; }
