@@ -68,9 +68,49 @@
     <div class="slabel" lc="ja">ニュース</div><div class="slabel" lc="en">News</div>
     <h2 class="stitle" lc="ja">活動報告</h2><h2 class="stitle" lc="en">Latest News</h2>
     <div class="sdiv"></div>
+    <!--
+      data-news-cat: 業績データのダウンロード（年度実績報告）で使う分類。
+        press  … マスコミへのニュース・リリース（新聞・報道各所への掲載）
+        event  … 開催報告（セミナー・講演依頼・展示など、外部主催への参加・出展）
+        award  … 受賞等（業績データと重複するため実績報告には出力されない）
+        hosted … 主催イベントの開催報告
+      記事を追加するときは必ずこの属性を付けること（無いと実績報告に載らない）。
+    -->
     <ul class="alist">
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="event">
+        <time class="ay" datetime="2026-08-27">2026.08.27</time>
+        <div class="ni-body">
+          <h3 class="ni-t" lc="ja">大学見本市2026〜イノベーションジャパンに出展「ノイズ環境で磁場を光で測る光ファイバセンサ」</h3>
+          <h3 class="ni-t" lc="en">Exhibiting at University Fair 2026 – Innovation Japan: "Optical Fiber Sensor for Measuring Magnetic Fields with Light in Noisy Environments"</h3>
+          <p class="ni-b" lc="ja">国内最大級の産学マッチングイベント「大学見本市2026〜イノベーションジャパン」（主催：科学技術振興機構、8月27日〜28日・東京ビッグサイト南展示棟）に、創価大学理工学部生命理工学科の西山道子教授による「ノイズ環境で磁場を光で測る光ファイバセンサ」が出展されます。ヘテロコア光ファイバに磁性流体を封入し、光損失の変化から磁場を検出する方式で、0〜12 mT の磁場検出を実証しています。電磁ノイズに強く、大型モータ・電力施設・宇宙空間などでの応用が期待されます。</p>
+          <p class="ni-b" lc="en">"Optical Fiber Sensor for Measuring Magnetic Fields with Light in Noisy Environments," developed by Professor Michiko Nishiyama of the Faculty of Science and Engineering, Soka University, will be exhibited at University Fair 2026 – Innovation Japan (organized by JST, August 27–28, Tokyo Big Sight), one of Japan's largest industry–academia matching events. The sensor seals magnetic fluid in a hetero-core optical fiber and detects magnetic fields from changes in optical loss, demonstrated over a 0–12 mT range. Its immunity to electromagnetic noise makes it promising for large motors, power facilities, and space applications.</p>
+          <a class="ni-link" href="https://innovationjapan.jst.go.jp/o002/" target="_blank" rel="noopener noreferrer"><span lc="ja">出展情報はこちら →</span><span lc="en">Exhibit details →</span></a>
+        </div>
+      </article></li>
+
+      <li><article class="ai ni" data-news-cat="hosted">
+        <time class="ay" datetime="2026-08-07">2026.08.07</time>
+        <div class="ni-body">
+          <h3 class="ni-t" lc="ja">第1回センター委員会を開催</h3>
+          <h3 class="ni-t" lc="en">The First Center Committee Meeting Was Held</h3>
+          <p class="ni-b" lc="ja">創価大学理工学部に設置された知能ロボティクス・センシング共創研究センターの第1回センター委員会を開催しました。センター員5名が出席し、センターの設置経緯と体制、規定に定められた主な事業、重点研究拠点および重点研究推進プロジェクトとの関係、今後の活動計画について確認しました。</p>
+          <p class="ni-b" lc="en">The first Center Committee meeting of the Research Center for Co-creation in Intelligent Robotics and Sensing was held at Soka University. All five center members attended and reviewed the center's structure, its principal activities, its relationship with the Priority Research Hub and the Priority Research Promotion Project, and the activity plan going forward.</p>
+          <a class="ni-link" href="news/20260807-center-meeting-1/article.html"><span lc="ja">詳しくはこちら →</span><span lc="en">Read more →</span></a>
+        </div>
+      </article></li>
+
+      <li><article class="ai ni" data-news-cat="hosted">
+        <time class="ay" datetime="2026-07-31">2026.07.31</time>
+        <div class="ni-body">
+          <h3 class="ni-t" lc="ja">STARポスター発表会を創価大学で開催（主催）</h3>
+          <h3 class="ni-t" lc="en">CIRoS Hosts the STAR Poster Session at Soka University</h3>
+          <p class="ni-b" lc="ja">7月31日、創価大学にてSTARポスター発表会を開催しました。センター員が主宰する崔研究室・伊与田研究室・萩原研究室から計15件のショートプレゼンテーションとポスター発表を行い、ロボットハンドの幾何構造決定、大型船舶の接岸支援、VLMを用いたインタラクティブナビゲーション、オンボード画像マッチング、3DGSセマンティックマッピング、ヘテロコア光ファイバ触覚センサなど、拠点の研究テーマを横断して議論しました。</p>
+          <p class="ni-b" lc="en">On July 31, CIRoS hosted the STAR poster session at Soka University. Fifteen short presentations and poster presentations were given by the Choi, Iyoda, and Hagiwara laboratories led by center members, covering topics across the center's research themes — reconfigurable robot hand geometry, berthing support for large vessels, interactive navigation with vision–language models, onboard image matching, 3DGS semantic mapping, and hetero-core optical fiber tactile sensing.</p>
+        </div>
+      </article></li>
+
+      <li><article class="ai ni" data-news-cat="press">
         <time class="ay" datetime="2026-07-29">2026.07.29</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">一般社団法人 宇宙AIロボティクス協会（SAIRA：Space AI Robotics Association）設立</h3>
@@ -83,7 +123,7 @@
       </article></li>
 
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="award">
         <time class="ay" datetime="2026-07-23">2026.07.23</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">チームSOBITSが世界大会 RoboCup 2026 に出場 — 総合13位・ポスター発表で世界4位</h3>
@@ -94,7 +134,7 @@
         </div>
       </article></li>
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="event">
         <time class="ay" datetime="2026-07-18">2026.07.18</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">第16回子どもいちょう塾でロボット教室を開催</h3>
@@ -105,7 +145,7 @@
         </div>
       </article></li>
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="press">
         <time class="ay" datetime="2026-06-11">2026.06.11</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">タウンニュースに掲載：SOBITS、世界へ — RoboCup 2026 世界大会出場</h3>
@@ -116,7 +156,7 @@
         </div>
       </article></li>
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="press">
         <time class="ay" datetime="2026-06-04">2026.06.04</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">タウンニュースに掲載：創価大SOBITS ロボカップ大会で快挙・新設宇宙部門で優勝</h3>
@@ -127,7 +167,7 @@
         </div>
       </article></li>
 
-      <li><article class="ai ni">
+      <li><article class="ai ni" data-news-cat="award">
         <time class="ay" datetime="2026-04-27">2026.04.27</time>
         <div class="ni-body">
           <h3 class="ni-t" lc="ja">チームSOBITSが RoboCup Japan Open 2026 で複数の賞を受賞</h3>
