@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T07:16:09.046Z",
+    "generated_at": "2026-08-07T14:52:58.518Z",
     "schema_version": "1.0",
     "scope": "recent"
   },
@@ -303,6 +303,26 @@
       "year": 2024,
       "doi": "10.1109/SENSORS60989.2024.10784794",
       "url": "https://doi.org/10.1109/SENSORS60989.2024.10784794",
+      "major": true
+    },
+    {
+      "title": {
+        "ja": "ヘテロコア光ファイバを用いる化学センサ",
+        "en": "Chemical Sensors Based on Hetero-Core Optical Fiber"
+      },
+      "authors": {
+        "ja": "関篤志",
+        "en": "関篤志"
+      },
+      "journal": {
+        "ja": "レーザー研究",
+        "en": "レーザー研究"
+      },
+      "volume": 52,
+      "number": 8,
+      "year": 2024,
+      "doi": "",
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402248813432172",
       "major": true
     },
     {
